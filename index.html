@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Recuperação da Informação</title>
+    
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .search-container {
+            background: #ffffff;
+            width: 100%;
+            max-width: 600px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+        }
+
+        .header-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .input-group {
+            margin-bottom: 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            gap: 20px;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-size: 16px;
+            color: #444;
+            transition: color 0.2s ease;
+        }
+
+        .checkbox-label:hover {
+            color: #3498db;
+        }
+
+        .custom-checkbox {
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            margin-right: 8px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .custom-checkbox:checked {
+            background-color: #3498db;
+            border-color: #3498db;
+        }
+
+        .custom-checkbox:checked::after {
+            content: '✔';
+            position: absolute;
+            color: white;
+            font-size: 14px;
+            top: -1px;
+            left: 3px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #e1e8ed;
+            border-radius: 8px;
+            outline: none;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .search-input:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+        }
+
+        .search-input::placeholder {
+            color: #aaa;
+        }
+
+        #response {
+            margin-top: 30px;
+            min-height: 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        /* Optional: A class for your programmer to toggle once files are recuperados */
+        #response.has-content {
+            padding: 20px;
+            background-color: #f9fbfc;
+            border: 1px solid #e1e8ed;
+        }
+
+        button{
+            font-size: larger;
+            background-color: lime;
+            color: aliceblue;
+            padding: 0.25rem 0.5rem;
+            margin: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="search-container">
+
+        <h1 class="header-title">Recuperação da Informação</h1>
+
+        <section class="input-group">
+
+            <span class="input-label">Modelo de recuperação da informação</span>
+
+            <form class="checkbox-group" id="modelForm">
+
+                <label class="checkbox-label" for="booleanoInput">Booleano</label>
+
+                <input id="booleanoInput" type="checkbox" name="modelo" value="1" class="custom-checkbox">
+
+                <label class="checkbox-label" for="vetorialInput">Vetorial</label>
+
+                <input id="vetorialInput" type="checkbox" name="modelo" value="2" class="custom-checkbox">
+
+            </form>
+
+        </section>
+
+        <form id="queryInput" class="input-group">
+
+            <label for="query-input" class="input-label">Pesquisa</label>
+
+            <input type="text" id="query-input" class="search-input" placeholder="Digite sua pesquisa aqui">
+
+        </form>
+
+        <button id="send">Pesquisar</button>
+
+        <div id="response"></div>
+
+    </main>
+
+    <script src="./codigos/booleano.js"></script>
+
+    <script src="./codigos/vetorial.js"></script>
+
+    <script src="./codigos/controller.js"></script>
+
+</body>
+</html>
