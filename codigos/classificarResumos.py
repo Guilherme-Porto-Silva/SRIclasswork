@@ -1,14 +1,17 @@
-def palavrasSignificativas(resumo):
+import re
+
+from nltk.corpus import stopwords
+
+
+
+def palavrasSignificativas (resumo):
     
     """
     Função que recebe um resumo e retorna uma lista de palavras significativas.
+    
     Palavras significativas são aquelas que não são stopwords e têm mais de 3 caracteres.
     """
     
-    import re
-    
-    from nltk.corpus import stopwords
-
     # Lista de stopwords em português
     stop_words = set(stopwords.words('portuguese'))
 
@@ -19,6 +22,48 @@ def palavrasSignificativas(resumo):
     palavras_significativas = [palavra for palavra in palavras if palavra not in stop_words and len(palavra) > 3]
 
     return palavras_significativas
+
+
+
+def contabilizar (palavras_significativas):
+    
+    """
+    Função que recebe uma lista de palavras significativas e retorna um dicionário com a contagem de cada palavra.
+    """
+    
+    chaves = []
+    
+    for termo_trabalhado in palavras_significativas:
+        
+        for palavra in palavras_significativas:
+            
+            quantas = 0
+            
+            if palavra == termo_trabalhado:
+                
+                quantas += 1
+            
+            chaves.append(f"<{termo_trabalhado}, {quantas}>")
+
+    return chaves
+
+
+
+def escrever (numero, chaves):
+    
+    """
+    Função que escreve no arquivo com a contagem de cada palavra.
+    """
+    
+    titulo = f"\n\nResumo {numero}:\n\n"
+    
+    with open("palavras_significativas.txt", "a", encoding="utf-8") as f:
+        
+        f.write(titulo)
+        
+        for chave in chaves:
+            
+            f.write(chave + "\n\n")
 
 
 
@@ -114,6 +159,4 @@ for palavras in todas_as_palavras_significativas:
     
     resumo_numero += 1
     
-    with open("palavras_significativas.txt", "a", encoding="utf-8") as f:
-        
-        f.write(f"\n\nResumo {resumo_numero}:\n\n" + palavras)
+    escrever(resumo_numero, contabilizar(palavras))
