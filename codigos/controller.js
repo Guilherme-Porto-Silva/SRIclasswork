@@ -1,8 +1,12 @@
 const modelForm = document.getElementById("modelForm");
 
+const themeForm = document.getElementById("themeForm");
+
 const queryInput = document.getElementById("queryInput");
 
-const campoResposta = document.getElementById("response");
+const pagina = document.querySelector("body");
+
+const campoResposta = document.querySelector("main");
 
 function pesquisar () {
 
@@ -31,4 +35,13 @@ function mostrar () {
     campoResposta.innerHTML = resultado;
 }
 
-document.getElementById("send").addEventListener("click", mostrar);
+document.getElementById("selecionarModelo").addEventListener("click", mostrar);
+
+function mudarTema () {
+
+    pagina.className = "";
+
+    pagina.classList.add(themeForm.value);
+}
+
+document.getElementById("selecionarTema").addEventListener("click", mudarTema);

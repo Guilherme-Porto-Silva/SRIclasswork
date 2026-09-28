@@ -1,0 +1,22 @@
+.claro .contornado{ border-color: black; }
+
+.escuro .contornado{ border-color: aliceblue; }
+
+button{
+    background-color: lime;
+    color: gold;
+}
+
+.claro button{ border-color: black; }
+
+.escuro button{ border-color: aliceblue; }
+
+.claro section{
+    background-color: aliceblue;
+    border-color: black;
+}
+
+.escuro section{
+    background-color: black;
+    border-color: aliceblue;
+}
