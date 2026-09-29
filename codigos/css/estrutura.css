@@ -1,0 +1,78 @@
+body{
+    background-position: center;
+    background-image: url("../../fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-size: larger;
+    overflow: hidden;
+}
+
+section{
+    margin: 0;
+    padding: clamp(5px, 1rem, 25px);
+    border-left: 0.125rem ridge;
+}
+
+main{
+    margin: clamp(5px, 1rem, 20px) 1%;
+    width: clamp(15ch, 90%, 97%);
+    height: clamp(50%, 80%, 90%);
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+header{
+    margin: 1.5rem;
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: clamp(1px, 0.5rem, 20px);
+}
+
+input{
+    padding: 0.2rem;
+    margin: 5px;
+    cursor: text;
+    border-style: ridge;
+    border-width: 0.125rem;
+}
+
+input[type="text"]{
+    min-width: 10ch;
+    width: max-content;
+    max-width: 100%;
+    height: 1.5rem;
+}
+
+input:hover, input:focus{ border-width: 0.25rem; }
+
+button{
+    border-radius: 5px;
+    border-width: 0.125rem;
+    border-style: ridge;
+    cursor: pointer;
+}
+
+.linha, .coluna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(5px, 1rem, 35px);
+}
+
+.coluna{ flex-direction: column; }
+
+.contornado{
+    border-style: solid;
+    border-width: 0.125rem;
+    border-radius: 5px;
+}
+
+.meioRemDePadding{ padding: 0.5rem; }

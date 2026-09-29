@@ -16,9 +16,9 @@ function pesquisar () {
 
     const palavrasDaPesquisa = pesquisa.split(" ");
 
-    if (modeloUtilizado == 1) return booleano(palavrasDaPesquisa);
+    if (modeloUtilizado == "Booleano") return booleano(palavrasDaPesquisa);
 
-    if (modeloUtilizado == 2) return vetorial(palavrasDaPesquisa);
+    if (modeloUtilizado == "Vetorial") return vetorial(palavrasDaPesquisa);
 }
 
 function mostrar () {
@@ -35,7 +35,7 @@ function mostrar () {
     campoResposta.innerHTML = resultado;
 }
 
-document.getElementById("selecionarModelo").addEventListener("click", mostrar);
+document.getElementById("pesquisar").addEventListener("click", mostrar);
 
 function mudarTema () {
 

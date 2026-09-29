@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Recuperação da Informação</title>
-    <link rel="stylesheet" href="css/estrutura.css">
-    <link rel="stylesheet" href="css/cores.css">
-    <link rel="stylesheet" href="css/reacoes.css">
+    <link rel="stylesheet" href="./codigos/css/estrutura.css">
+    <link rel="stylesheet" href="./codigos/css/cores.css">
+    <link rel="stylesheet" href="./codigos/css/reacoes.css">
 </head>
 <body class="escuro">
 
-    <header class="coluna">
+    <header>
 
-        <h1>Sistema de Recuperação da Informação</h1>
+        <h1 class="fundo contornado meioRemDePadding">Sistema de Recuperação da Informação</h1>
 
-        <h2>Selecione um tema de cores</h2>
+        <h2 class="fundo contornado meioRemDePadding">Selecione um tema de cores</h2>
 
-        <form class="linha contornado" id="themeForm">
+        <form class="linha contornado meioRemDePadding fundo" id="themeForm">
 
             <input type="radio" id="escuro" name="selecioneTema" group="tema" value="escuro">
             <label for="escuro">Tema escuro</label>
@@ -26,7 +26,7 @@
 
         </form>
 
-        <button id="selecionarTema">Selecionar</button>
+        <button id="selecionarTema" class="meioRemDePadding">Selecionar</button>
 
     </header>
 
@@ -34,7 +34,7 @@
 
         <h2>Selecione um modelo de recuperação</h2>
 
-        <form class="linha contornado" id="modelForm">
+        <form class="linha meioRemDePadding" id="modelForm">
 
             <input type="radio" id="booleano" name="selecioneModelo" group="modelo" value="Booleano">
             <label for="booleano">Booleano</label>
@@ -44,15 +44,29 @@
 
         </form>
 
-        <button id="selecionarModelo">Selecionar</button>
+        <h2>Insira palavras-chave</h2>
 
-        <main class="coluna">
+        <form class="linha meioRemDePadding" id="queryForm">
+
+            <input type="text" id="palavrasChave" name="palavrasChave" placeholder="Digite as palavras-chave..." required>
+
+            <button id="pesquisar" class="meioRemDePadding">Pesquisar</button>
+
+        </form>
+
+        <main class="coluna contornado meioRemDePadding">
 
             <span>Sua resposta aparecerá aqui.</span>
             
         </main>
 
     </section>
+
+    <script src="./codigos/modelosRecuperadores/booleano.js"></script>
+
+    <script src="./codigos/modelosRecuperadores/vetorial.js"></script>
+
+    <script src="./codigos/controller.js"></script>
 
 </body>
 </html>

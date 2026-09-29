@@ -1,0 +1,72 @@
+.claro{ color: black; }
+
+.escuro{ color: aliceblue; }
+
+.claro .contornado{ border-color: black; }
+
+.escuro .contornado{ border-color: aliceblue; }
+
+.claro .fundo{
+    background-color: aliceblue;
+}
+
+.escuro .fundo{
+    background-color: black;
+}
+
+button{
+    background-color: rgb(18, 128, 18);
+    color: gold;
+}
+
+.claro button{ border-color: black; }
+
+.escuro button{ border-color: aliceblue; }
+
+.claro button:hover, .claro button:focus{ background-color: blueviolet; }
+
+.escuro button:hover, .escuro button:focus{ background-color: red; }
+
+.claro button:hover:focus{ background-color: pink; }
+
+.escuro button:hover:focus{ background-color: blue; }
+
+.claro section{
+    background-color: aliceblue;
+    border-color: black;
+}
+
+.escuro section{
+    background-color: black;
+    border-color: aliceblue;
+}
+
+.claro input{
+    background-color: blueviolet;
+    border-color: black;
+    color: aliceblue;
+}
+
+.escuro input{
+    background-color: darkslateblue;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+.claro input:hover, .claro input:focus{
+    background-color: pink;
+    border-color: rgb(41, 39, 39);
+}
+
+.escuro input:hover, .escuro input:focus{
+    background-color: blue;
+}
+
+.claro input:hover:focus{
+    background-color: rgb(224, 85, 109);
+    border-color: rgb(48, 35, 35);
+}
+
+.escuro input:hover:focus{
+    background-color: darkslateblue;
+}
