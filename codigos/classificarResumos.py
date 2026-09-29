@@ -1,3 +1,7 @@
+# pegando cada uma das palavras que estão no arquivo que a Cristina colocou no Teams
+
+# colocando todas elas dentro de uma lista do Python
+
 stop_words = []
 
 with open("stopwords.txt", "r", encoding="ANSI") as f:
@@ -11,9 +15,13 @@ with open("stopwords.txt", "r", encoding="ANSI") as f:
 def palavrasSignificativas (resumo):
     
     """
-    Recebe um resumo e retorna uma lista de palavras significativas.
+    Função que rcoloca as palavras significativas de um resumo em uma lista do Python.
+    
+    Recebe um resumo, que é uma string, e retorna uma lista, que são as palavras significativas.
     
     Palavras significativas são aquelas que não são stopwords e têm mais de 3 caracteres.
+    
+    Trabalha com qualquer resumo, igualmente.
     """
 
     palavras = resumo.lower().split()
@@ -27,7 +35,11 @@ def palavrasSignificativas (resumo):
 def contabilizar (palavras_significativas):
     
     """
-    Recebe uma lista de palavras significativas e retorna um dicionário com a contagem de cada palavra.
+    Função que contabiliza a ocorrência de cada palavra significativa em uma lista.
+    
+    Recebe uma lista do Python e retorna um dicionário, com a contagem de cada palavra.
+    
+    Trabalha com qualquer lista de palavras, igualmente.
     """
     
     chaves = []
@@ -57,7 +69,11 @@ def contabilizar (palavras_significativas):
 def escrever (numero, chaves):
     
     """
-    Escreve um arquivo com a contagem de cada palavra.
+    Função que escreve no arquivo.
+    
+    Põe a contagem de cada palavra nele, no formato <palavra, quantidade>.
+    
+    Trabalha com qualquer lista de palavras, igualmente.
     """
     
     titulo = f"\n\nResumo {numero}:\n\n"
@@ -73,6 +89,16 @@ def escrever (numero, chaves):
             f.write(chave + "\n\n")
 
 
+
+# Agora, eu vou passar os resumos dos PDFs para o arquivo PY.
+
+# Por enquanto, estou fazendo isso manualmente, porque não sei fazer isso no código.
+
+# Eu só copiei cada resumo do PDF e colei aqui, entre aspas, para que o Python entenda que é uma string.
+
+# Atribuí cada resumo a uma variável global diferente.
+
+# Nenhuma delas tem seu valor mudado em outros lugares do código.
 
 resumo1 = "Este artigo apresenta algumas vantagens das metodologias ágeis para desenvolver software em relação às metodologias tradicionais. Em particular são apresentadas as principais características e as práticas das metodologias ágeis Extreme Programming e Scrum. Também são feitas comparações com as metodologias tradicionais, procurando enfatizar que as metodologias ágeis são baseadas em pessoas e não em processos e planejamentos. Finalmente são apresentadas as principais vantagens e desvantagens da Extreme Programming e da Scrum. Também são apresentados alguns resultados empíricos do uso de metodologias ágeis."
 
@@ -116,6 +142,12 @@ resumo20 = "Com o mundo da tecnologia em constante mudança, novos requisitos e 
 
 
 
+# Agora, eu vou passar cada resumo pela a função palavrasSignificativas e guardar cada retorno numa variável global diferente.
+
+# Nenhuma delas tem seu valor mudado em outros lugares do código.
+
+# Isso me dá várias variáveis globais diferentes, cada uma com a lista das palavras significativas de um resumo.
+
 resumo1_palavras_significativas = palavrasSignificativas(resumo1)
 
 resumo2_palavras_significativas = palavrasSignificativas(resumo2)
@@ -158,7 +190,15 @@ resumo20_palavras_significativas = palavrasSignificativas(resumo20)
 
 
 
+# Colocarei todas as listas de palavras significativas em uma lista só, para poder percorrê-la com um for.
+
 todas_as_palavras_significativas = [resumo1_palavras_significativas, resumo2_palavras_significativas, resumo3_palavras_significativas, resumo4_palavras_significativas, resumo5_palavras_significativas, resumo6_palavras_significativas, resumo7_palavras_significativas, resumo8_palavras_significativas, resumo9_palavras_significativas, resumo10_palavras_significativas, resumo11_palavras_significativas, resumo12_palavras_significativas, resumo13_palavras_significativas, resumo14_palavras_significativas, resumo15_palavras_significativas, resumo16_palavras_significativas, resumo17_palavras_significativas, resumo18_palavras_significativas, resumo19_palavras_significativas, resumo20_palavras_significativas]
+
+# Agora, é só aplicar a mesma regra em cima de todas as listas de palavras significativas.
+
+# Para cada uma, estou escrevendo todos os seus itens dentro de um arquivo TXT.
+
+# Esse lastro também funciona da mesma forma não importa quais valores eu atribuir às variáveis globais do tipo string lá do começo.
 
 resumo_numero = 0
 

@@ -8,6 +8,9 @@ const pagina = document.querySelector("body");
 
 const campoResposta = document.querySelector("main");
 
+function pegarTodasAsPalavrasSignificativas () {
+}
+
 function pesquisar () {
 
     const modeloUtilizado = modelForm.value;
@@ -16,9 +19,11 @@ function pesquisar () {
 
     const palavrasDaPesquisa = pesquisa.split(" ");
 
-    if (modeloUtilizado == "Booleano") return booleano(palavrasDaPesquisa);
+    const todasAsPalavrasSignificativas = pegarTodasAsPalavrasSignificativas();
 
-    if (modeloUtilizado == "Vetorial") return vetorial(palavrasDaPesquisa);
+    if (modeloUtilizado == "Booleano") return booleano(palavrasDaPesquisa, todasAsPalavrasSignificativas);
+
+    if (modeloUtilizado == "Vetorial") return vetorial(palavrasDaPesquisa, todasAsPalavrasSignificativas);
 }
 
 function mostrar () {
