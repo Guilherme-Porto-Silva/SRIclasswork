@@ -207,3 +207,25 @@ for palavras in todas_as_palavras_significativas:
     resumo_numero += 1
     
     escrever(resumo_numero, contabilizar(palavras))
+
+
+
+# controller.js não consegue pegar as palavras dos arquivos de texto, então, o classificarResumos.py vai mandá-las para ele.
+
+# Usarei o Flask (um framework web do Python) isso.
+ 
+from flask import Flask, request, jsonify
+
+# Definido que este arquivo é um aplicativo Flask, que é um receptor de requisições.
+
+app = Flask(__name__)
+
+# Mapeando o método HTTP GET para a rota /api/mandar_todas_as_palavras_significativas.
+
+@app.route('/api/mandar_todas_as_palavras_significativas', methods=['GET'])
+
+def mandar_todas_as_palavras_significativas():
+    
+    # Eu só coloco a lista dentro de um JSON e mando.
+
+    return jsonify({'palavras_significativas': todas_as_palavras_significativas}), 200

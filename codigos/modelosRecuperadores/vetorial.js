@@ -1,14 +1,22 @@
-// Sim(documento, query) = (soma de todos(peso de cada termo naquele documento)) / (soma de todos(peso de cada termo naquele documento)^2 * soma de todos(peso de cada termo na consulta)^2)
+function soma_de_todos(vetor) {
 
-const documento = "Depois eu olho como pega o documento.";
+    let soma = 0;
+
+    vetor.forEach(valor => {
+
+        soma += valor;
+    });
+
+    return soma;
+}
 
 
 
-function Sim(dx, q) {}
+function Sim(dx, q) { return soma_de_todos(dx) / (soma_de_todos(dx) ** 2 * soma_de_todos(q) ** 2); }
 
 
 
-function calcularTF(termoPesquisa) {
+function calcularTF(termoPesquisa, documento) {
 
     let frequencia = 0;
 
@@ -22,43 +30,53 @@ function calcularTF(termoPesquisa) {
 
 
 
-function calcularMI(termo) {// mi = quantos documentos tem o termo
+function calcularMI(termo, colecaoDeDocumentos) { 
 
-    let frequencia = 0;
+//  Função que recebe a coleção de documentos (ex: um array de arrays de palavras) e o termo a ser buscado, e calcula o mi.
 
-    documento.forEach(termoDocumento => {
+    let mi = 0;
 
-        if (termoDocumento == termo) frequencia++;
+    colecaoDeDocumentos.forEach(documento => {
+
+        // Verifica se o termo existe pelo menos uma vez neste documento
+
+        if (documento.includes(termo))  mi++;
     });
 
-    return frequencia;
+    return mi;
 }
 
 
 
-function calcularIDF(termo) {
+function calcularIDF(termo, colecaoDeDocumentos) {
 
-    const N = documento.size;
+//  Usamos .length se for um array e .size se for um Set/Map
+
+    const N = colecaoDeDocumentos.length || colecaoDeDocumentos.size; 
     
-    const mi = calcularMI(termo);
+    const mi = calcularMI(termo, colecaoDeDocumentos);
+
+//  Tratamento de segurança para evitar divisão por zero
+
+    if (!(mi > 0)) return 0;
 
     return Math.log2(N / mi);
 }
 
 
 
-function trabalharCom (termo) {
+function trabalharCom (termo, documento) {
 
-    const TF = calcularTF(termo);
+    const TF = calcularTF(termo, documento);
     
-    const IDF = calcularIDF(termo);
+    const IDF = calcularIDF(termo, documento);
 
     return (TF * IDF)
 }
 
 
 
-function vetorial (pesquisa) {
+function vetorial (pesquisa, significativas) {
 
     const pesosNoDocumento = []
 
@@ -66,18 +84,18 @@ function vetorial (pesquisa) {
 
     pesquisa.forEach(termo => {
 
-        pesosNaConsulta.add(trabalharCom(termo));
+        pesosNaConsulta.push(trabalharCom(termo, significativas));
     });
 
-    documento.forEach(termo => {
+    significativas.forEach(termo => {
 
-        pesosNoDocumento.add(trabalharCom(termo));
+        pesosNoDocumento.push(trabalharCom(termo, significativas));
     });
 
     const posicionamentos = []
 
-    documento.forEach((termo, indice) => {
+    significativas.forEach((termo, indice) => {
 
-        posicionamentos.add(Sim(pesosNoDocumento[indice], pesosNaConsulta[indice]));
+        posicionamentos.push(Sim(pesosNoDocumento[indice], pesosNaConsulta[indice]));
     });
 }
