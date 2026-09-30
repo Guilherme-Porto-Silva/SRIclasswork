@@ -70,3 +70,9 @@ button{
 .escuro input:hover:focus{
     background-color: darkslateblue;
 }
+
+a{ color: rgb(58, 58, 245); }
+
+a:hover, a:focus{ color: deepskyblue; }
+
+a:hover:focus{ color: skyblue; }

@@ -12,6 +12,18 @@ const campoResposta = document.querySelector("main");
 
 
 
+// reteferenciando documentos
+
+const indicesDocumentos = [];
+
+const titulos = [];
+
+const autores = [];
+
+const nomesDocumentos = [];
+
+
+
 function pegarTodasAsPalavrasSignificativas () {
 
 //  controller.js não consegue pegar as palavras dos arquivos de texto, então, o classificarResumos.py vai mandá-las para ele.
@@ -72,6 +84,12 @@ function mostrar () {
 
 //  pegando a resposta da pesquisa
 
+//  essa constante guarda um mapa do JavaScript
+
+//  cada chave dela é um índice de comumento da nossa base de dados
+
+//  cada valor dela é a posição na qual o documento com aquele índice precisa aparecer na resposta final
+
     const resultado = pesquisar();
 
 //  mostrando a resposta na tela, quando nenhum PDF combina
@@ -85,7 +103,20 @@ function mostrar () {
 
 //  mostrando a resposta na tela, quando algum PDF combina
 
-    campoResposta.innerHTML = resultado;
+    campoResposta.innerHTML = "";
+
+    resultado.forEach((documento, posicaoDeExibicao) => {
+
+        const ancoraParaPDF = document.createElement("a");
+
+        ancoraParaPDF.textContent = `${titulos[posicaoDeExibicao]} - ${autores[posicaoDeExibicao]}`;
+
+        ancoraParaPDF.href = `../banco/${nomesDocumentos[posicaoDeExibicao]}.pdf`;
+
+        ancoraParaPDF.classList.add("contornado");
+
+        campoResposta.appendChild(ancoraParaPDF);
+    });
 }
 
 // avisando que é para mostrar a resposta quando o botão de pesquisar for precionado

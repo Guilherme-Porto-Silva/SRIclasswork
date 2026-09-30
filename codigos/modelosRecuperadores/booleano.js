@@ -74,7 +74,7 @@ function booleano (pesquisa, significativas) {
 
   desejo.forEach((palavra, indice) => {
     
-    if (significativas[indice] == palavra) indices.push(indice + 1);
+    if (significativas[indice] == palavra) indices.push(indice);
 
   });
 }
