@@ -12,6 +12,13 @@ function soma_de_todos(vetor) {
 
 
 
+function ordenar (similaridades) {
+
+    // processo
+}
+
+
+
 function Sim(dx, q) { return soma_de_todos(dx) / (soma_de_todos(dx) ** 2 * soma_de_todos(q) ** 2); }
 
 
@@ -92,10 +99,12 @@ function vetorial (pesquisa, significativas) {
         pesosNoDocumento.push(trabalharCom(termo, significativas));
     });
 
-    const posicionamentos = []
+    const similaridades = new Map();
 
     significativas.forEach((termo, indice) => {
 
-        posicionamentos.push(Sim(pesosNoDocumento[indice], pesosNaConsulta[indice]));
+        similaridades.add(indice + 1, Sim(pesosNoDocumento[indice], pesosNaConsulta[indice]));
     });
+
+    const similaridadesOrdenadas = ordenar(similaridades);
 }

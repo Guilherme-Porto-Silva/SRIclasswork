@@ -42,4 +42,39 @@ function NOT (conjuntoNegado, todosOsIds) {
 
 
 function booleano (pesquisa, significativas) {
+
+  const indices = [];
+
+  const desejo = [];
+
+
+
+  pesquisa.forEach((palavra, indice) => {
+    
+    if (palavra != "NOT" && pesquisa[indice - 1] != "NOT") {
+
+      if (palavra == "AND") {
+    
+      if (pesquisa[indice + 1] == "NOT") desejo.push(NOT(AND(pesquisa[indice - 1], pesquisa[indice + 2])));
+      
+      else desejo.push(AND(pesquisa[indice - 1], pesquisa[indice + 1]));
+    }
+    
+    if (palavra == "OR") {
+    
+      if (pesquisa[indice + 1] == "NOT") desejo.push(NOT(OR(pesquisa[indice - 1], pesquisa[indice + 2])));
+      
+      else desejo.push(OR(pesquisa[indice - 1], pesquisa[indice + 1]));
+    }
+  }
+
+  });
+
+
+
+  desejo.forEach((palavra, indice) => {
+    
+    if (significativas[indice] == palavra) indices.push(indice + 1);
+
+  });
 }
