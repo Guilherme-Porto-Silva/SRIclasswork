@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 25% 75%;
+        overflow: auto;
+    }
+
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        font-size: larger;
+        grid-template-columns: 45% 55%;
+        overflow: hidden;
+    }
+
+    header{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}

@@ -4,12 +4,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
-    grid-template-columns: 45% 55%;
     padding: 0;
     margin: 0;
     height: 100vh;
-    font-size: larger;
-    overflow: hidden;
 }
 
 section{
@@ -31,8 +28,6 @@ header{
     padding: 0.1rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     gap: clamp(1px, 0.5rem, 20px);
 }
 
@@ -51,7 +46,7 @@ input[type="text"]{
     height: 1.5rem;
 }
 
-input:hover, input:focus{ border-width: 0.25rem; }
+input:hover, input:focus{ border-width: 0.2rem; }
 
 button{
     border-radius: 5px;
