@@ -43,26 +43,44 @@ function NOT (conjuntoNegado, todosOsIds) {
 
 function booleano (pesquisa, significativas) {
 
-  const indices = [];
+  const indices = [];// posições de cada documento na pesquisa
 
-  const desejo = [];
+  const desejo = [];// pesquisa com operadoeres aplicados
+
+  const resultado = new Map();// retorno esperado pelo controller.js
 
 
 
   pesquisa.forEach((palavra, indice) => {
-    
-    if (palavra != "NOT" && pesquisa[indice - 1] != "NOT") {
 
-      if (palavra == "AND") {
+// não aplicamos a lógica sobre a palavra NOT
+
+// não aplicamos a lógica sobre a palavra AND ou OR se ela estiver precedida de NOT
+    
+  if (palavra != "NOT" && pesquisa[indice - 1] != "NOT") {
+
+
+
+    if (palavra == "AND") {
+      
+//    para o caso de AND, se a palavra seguinte for NOT, aplicamos a lógica NAND sobre o conjunto seguinte
     
       if (pesquisa[indice + 1] == "NOT") desejo.push(NOT(AND(pesquisa[indice - 1], pesquisa[indice + 2])));
+
+//    senão, aplicamos a lógica de AND
       
       else desejo.push(AND(pesquisa[indice - 1], pesquisa[indice + 1]));
     }
+
+
     
     if (palavra == "OR") {
+      
+//    para o caso de OR, se a palavra seguinte for NOT, aplicamos a lógica NOR sobre o conjunto seguinte
     
       if (pesquisa[indice + 1] == "NOT") desejo.push(NOT(OR(pesquisa[indice - 1], pesquisa[indice + 2])));
+      
+//    senão, aplicamos a lógica de OR
       
       else desejo.push(OR(pesquisa[indice - 1], pesquisa[indice + 1]));
     }
@@ -72,9 +90,23 @@ function booleano (pesquisa, significativas) {
 
 
 
-  desejo.forEach((palavra, indice) => {
-    
-    if (significativas[indice] == palavra) indices.push(indice);
+  desejo.forEach(pesquisada => {// agora que já aplicamos os operadores, é hora de comparar com as palavras significativas
+
+    significativas.forEach((significativa, indice) => {
+
+      if (significativa == pesquisada) indices.push(indice);
+
+    });
 
   });
+
+
+
+  indices.forEach((indice, posicao) => {// agora que já ordenamos os indices,
+
+     resultado.add(indice, posicao);// precisamos colocá-los em um mapa,
+
+  });// para devolver ao controller.js
+
+  return resultado;
 }

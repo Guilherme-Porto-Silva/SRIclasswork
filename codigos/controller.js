@@ -77,7 +77,7 @@ function mostrar () {
 
 //  essa constante guarda um mapa do JavaScript
 
-//  cada chave dela é um índice de comumento da nossa base de dados
+//  cada chave dela é um índice de documento da nossa base de dados
 
 //  cada valor dela é a posição na qual o documento com aquele índice precisa aparecer na resposta final
 
