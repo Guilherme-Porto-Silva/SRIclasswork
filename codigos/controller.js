@@ -1,10 +1,6 @@
 // referenciando partes do HTML no código JavaScript
 
-const modelForm = document.getElementById("modelForm");
-
-const themeForm = document.getElementById("themeForm");
-
-const queryInput = document.getElementById("queryInput");
+const palavrasChave = document.getElementById("palavrasChave");
 
 const pagina = document.querySelector("body");
 
@@ -41,12 +37,7 @@ function pegarTodasAsPalavrasSignificativas () {
         }
     });
 
-    if (resposta == null) {// tratando erro
-
-        campoResposta.innerHTML = `<span>Estamos tendo algumas dificuldades técnicas. Por favor, tente novamente mais tarde.</span>`;
-
-        return;
-    }
+    if (resposta == null) return getFallback();
     
     return resposta;
 
@@ -61,9 +52,9 @@ function pesquisar () {
 
 //  pegando os valores do HTML
 
-    const modeloUtilizado = modelForm.value;
+    const modeloUtilizado = document.querySelector('input[name="selecioneModelo"]:checked').value;
 
-    const pesquisa = queryInput.value;
+    const pesquisa = palavrasChave.value;
 
     const palavrasDaPesquisa = pesquisa.split(" ");// split transforma a string num vetor de palavras, separando-as pelos espaços
 
@@ -125,11 +116,15 @@ document.getElementById("pesquisar").addEventListener("click", mostrar);
 
 
 
-function mudarTema () {
+function mudarTema() {
 
-    pagina.className = "";
+    const temaSelecionado = document.querySelector('input[name="selecioneTema"]:checked');// botão clicado
 
-    pagina.classList.add(themeForm.value);
+    if (temaSelecionado == null) return;// HTML não carregou o botão ou algo do tipo
+
+    pagina.className = "";// limpando o valor antigo
+
+    pagina.classList.add(temaSelecionado.value);// inserrindo o valor novo
 }
 
 // avisando que é para mudar o tema quando o botão de selecionar tema for precionado

@@ -4,7 +4,7 @@
 
 stop_words = []
 
-with open("stopwords.txt", "r", encoding="ANSI") as f:
+with open("codigos/stopwords.txt", "r", encoding="ANSI") as f:
     
     for linha in f:
         
@@ -26,7 +26,7 @@ def palavrasSignificativas (resumo):
 
     palavras = resumo.lower().split()
 
-    palavras_significativas = [palavra for palavra in palavras if palavra not in stop_words and len(palavra) > 3]
+    palavras_significativas = [palavra.replace(".", "") for palavra in palavras if palavra not in stop_words and len(palavra) > 3]
 
     return palavras_significativas
 
@@ -48,15 +48,15 @@ def contabilizar (palavras_significativas):
     
     for termo_trabalhado in palavras_significativas:
         
-        quantas = 0
-        
-        for palavra in palavras_significativas:
-            
-            if palavra == termo_trabalhado:
-                
-                quantas += 1
-        
         if termo_trabalhado not in ja_trabalhados:
+        
+            quantas = 0
+            
+            for palavra in palavras_significativas:
+                
+                if palavra == termo_trabalhado:
+                    
+                    quantas += 1
             
             chaves.append(f"<{termo_trabalhado}, {quantas}>")
             

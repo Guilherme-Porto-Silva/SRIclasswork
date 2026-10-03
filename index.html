@@ -16,7 +16,7 @@
 
         <h2 class="fundo contornado meioRemDePadding">Selecione um tema de cores</h2>
 
-        <form class="linha contornado meioRemDePadding fundo" id="themeForm">
+        <div class="linha contornado meioRemDePadding fundo">
 
             <input type="radio" id="escuro" name="selecioneTema" group="tema" value="escuro">
             <label for="escuro">Tema escuro</label>
@@ -24,7 +24,7 @@
             <input type="radio" id="claro" name="selecioneTema" group="tema" value="claro">
             <label for="claro">Tema claro</label>
 
-        </form>
+        </div>
 
         <button id="selecionarTema" class="meioRemDePadding">Selecionar</button>
 
@@ -34,25 +34,25 @@
 
         <h2>Selecione um modelo de recuperação</h2>
 
-        <form class="linha meioRemDePadding" id="modelForm">
+        <div class="linha meioRemDePadding">
 
-            <input type="radio" id="booleano" name="selecioneModelo" group="modelo" value="Booleano">
+            <input type="radio" name="selecioneModelo" group="modelo" value="Booleano">
             <label for="booleano">Booleano</label>
 
-            <input type="radio" id="vetorial" name="selecioneModelo" group="modelo" value="Vetorial">
+            <input type="radio" name="selecioneModelo" group="modelo" value="Vetorial">
             <label for="vetorial">Vetorial</label>
 
-        </form>
+        </div>
 
         <h2>Insira palavras-chave</h2>
 
-        <form class="linha meioRemDePadding" id="queryForm">
+        <div class="linha meioRemDePadding" id="queryForm">
 
             <input type="text" id="palavrasChave" name="palavrasChave" placeholder="Digite as palavras-chave..." required>
 
             <button id="pesquisar" class="meioRemDePadding">Pesquisar</button>
 
-        </form>
+        </div>
 
         <main class="coluna contornado meioRemDePadding">
 
@@ -65,6 +65,8 @@
     <script src="./codigos/modelosRecuperadores/booleano.js"></script>
 
     <script src="./codigos/modelosRecuperadores/vetorial.js"></script>
+
+    <script src="./codigos/fallback.js"></script>
 
     <script src="./codigos/controller.js"></script>
 
