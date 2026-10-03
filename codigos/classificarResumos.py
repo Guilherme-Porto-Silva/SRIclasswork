@@ -26,7 +26,7 @@ def palavrasSignificativas (resumo):
 
     palavras = resumo.lower().split()
 
-    palavras_significativas = [palavra.replace(".", "") for palavra in palavras if palavra not in stop_words and len(palavra) > 3]
+    palavras_significativas = [palavra.replace(".", "").replace(",", "") for palavra in palavras if palavra not in stop_words and len(palavra) > 3]
 
     return palavras_significativas
 
