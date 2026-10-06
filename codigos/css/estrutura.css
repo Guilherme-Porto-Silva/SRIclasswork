@@ -5,13 +5,13 @@ body{
     height: 100vh;
 }
 
-section{
+main{
     margin: 0;
     padding: clamp(5px, 1rem, 25px);
     border-left: 0.125rem ridge;
 }
 
-main{
+#resultados{
     margin: clamp(5px, 1rem, 20px) 1%;
     width: clamp(15ch, 90%, 97%);
     height: clamp(50%, 80%, 90%);

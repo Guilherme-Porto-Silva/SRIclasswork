@@ -47,7 +47,7 @@ function calcularMI(termo, colecaoDeDocumentos) {
 
     colecaoDeDocumentos.forEach(documento => {
 
-        // Verifica se o termo existe pelo menos uma vez neste documento
+ // Verifica se o termo existe pelo menos uma vez neste documento
 
         if (documento.includes(termo))  mi++;
     });
@@ -85,40 +85,76 @@ function trabalharCom (termo, documento) {
 
 
 
-function vetorial (pesquisa, significativas) {
+// COMEÇO DE UM CÓDIGO GERADO PELO CLAUDE AI
 
-    const pesosNoDocumento = []
+export function buscarVetorial(termos, indice) {
 
-    const pesosNaConsulta = []
+    const consulta = new Map();// termo -> frequência na consulta
 
-    pesquisa.forEach(termo => {
+    for (const t of termos) consulta.set(t, (consulta.get(t) ?? 0) + 1);
+  
+    const produto = new Map(); // idDoc -> produto escalar (consulta · documento)
 
-        pesosNaConsulta.push(trabalharCom(termo, significativas));
-    });
+    let somaQuadrados = 0;
 
-    significativas.forEach(termo => {
+    for (const [t, freq] of consulta) {
 
-        pesosNoDocumento.push(trabalharCom(termo, significativas));
-    });
+      const wq = (1 + Math.log2(freq)) * (indice.idf.get(t) ?? 0);// peso TF-IDF do termo na consulta
 
-    const similaridades = new Map();
+      somaQuadrados += wq * wq;
 
-    significativas.forEach((termo, indice) => {
+      for (const id of indice.invertido.get(t)?.keys() ?? [])// só percorre docs que contêm o termo
 
-        similaridades.add(indice, Sim(pesosNoDocumento[indice], pesosNaConsulta[indice]));
-    });
+        produto.set(id, (produto.get(id) ?? 0) + wq * indice.pesos[id].get(t));
+    }
 
-    const similaridadesOrdenadas = ordenar(similaridades.values);
+    const normaConsulta = Math.sqrt(somaQuadrados);
 
-    const mapaOrdenado = new Map();
-
-    similaridadesOrdenadas.forEach((similaridade, indice) => {
-
-        similaridades.forEach((similaridadeAnalisada, indice) => {
-
-            if (similaridadeAnalisada == similaridadesOrdenadas[indice]) mapaOrdenado.add(similaridades.keys[indice], similaridades.values[indice]);
-        });
-    });
-
-    return mapaOrdenado;
+    return [...produto].filter(([, dot]) => dot > 0)// descarta score 0
+      .map(([id, dot]) => ({ id, score: dot / (indice.normas[id] * normaConsulta) }))// similaridade do cosseno
+      .sort((a, b) => b.score - a.score);// mais relevante primeiro
 }
+
+// FIM DO CÓDIGO GERADO PELO CLAUDE AI
+
+
+
+//   --- CÓDIGO DESCARTADO --- //
+
+// function vetorial (pesquisa, significativas) {
+
+//     const pesosNoDocumento = []
+
+//     const pesosNaConsulta = []
+
+//     pesquisa.forEach(termo => {
+
+//         pesosNaConsulta.push(trabalharCom(termo, significativas));
+//     });
+
+//     significativas.forEach(termo => {
+
+//         pesosNoDocumento.push(trabalharCom(termo, significativas));
+//     });
+
+//     const similaridades = new Map();
+
+//     significativas.forEach((termo, indice) => {
+
+//         similaridades.add(indice, Sim(pesosNoDocumento[indice], pesosNaConsulta[indice]));
+//     });
+
+//     const similaridadesOrdenadas = ordenar(similaridades.values);
+
+//     const mapaOrdenado = new Map();
+
+//     similaridadesOrdenadas.forEach((similaridade, indice) => {
+
+//         similaridades.forEach((similaridadeAnalisada, indice) => {
+
+//             if (similaridadeAnalisada == similaridadesOrdenadas[indice]) mapaOrdenado.add(similaridades.keys[indice], similaridades.values[indice]);
+//         });
+//     });
+
+//     return mapaOrdenado;
+// }

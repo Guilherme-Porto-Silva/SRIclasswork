@@ -30,7 +30,49 @@
 
     </header>
 
-    <section class="coluna">
+    <main class="coluna">
+
+        <form id="formBusca" class="coluna">
+
+          <fieldset class="linha meioRemDePadding">
+
+            <legend>Selecione um modelo de recuperação</legend>
+
+            <input type="radio" id="booleano" name="selecioneModelo" value="Booleano" checked>
+
+            <label for="booleano">Booleano</label>
+
+            <input type="radio" id="vetorial" name="selecioneModelo" value="Vetorial">
+
+            <label for="vetorial">Vetorial</label>
+
+          </fieldset>
+
+          <div class="linha meioRemDePadding">
+
+            <label for="palavrasChave">Palavras-chave</label>
+
+            <input type="text" id="palavrasChave" required placeholder="Ex.: (scrum AND xp) NOT startups">
+
+            <button type="submit" class="meioRemDePadding">Pesquisar</button>
+
+          </div>
+
+        </form>
+
+        <div id="resultados" class="coluna contornado meioRemDePadding" aria-live="polite">
+
+          <span>Sua resposta aparecerá aqui.</span>
+
+        </div>
+        
+      </main>
+
+
+
+      <!-- CÓDIGO DESCARTADO -->
+
+    <!-- <section class="coluna">
 
         <h2>Selecione um modelo de recuperação</h2>
 
@@ -60,15 +102,11 @@
             
         </main>
 
-    </section>
+    </section> -->
 
-    <script src="./codigos/modelosRecuperadores/booleano.js"></script>
 
-    <script src="./codigos/modelosRecuperadores/vetorial.js"></script>
 
-    <script src="./codigos/fallback.js"></script>
-
-    <script src="./codigos/controller.js"></script>
+    <script type="module" src="./codigos/controller.js"></script>
 
 </body>
 </html>

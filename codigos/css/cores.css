@@ -31,12 +31,12 @@ button{
 
 .escuro button:hover:focus{ background-color: blue; }
 
-.claro section{
+.claro #resultados{
     background-color: aliceblue;
     border-color: black;
 }
 
-.escuro section{
+.escuro #resultados{
     background-color: black;
     border-color: aliceblue;
 }
