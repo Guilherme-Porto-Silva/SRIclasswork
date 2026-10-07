@@ -1,0 +1,48 @@
+
+
+Resumo 18:
+
+<resumo18, 21>
+
+<artigo, 1>
+
+<propõe, 1>
+
+<abordagem, 1>
+
+<práticas, 1>
+
+<utilizando, 1>
+
+<métodos, 1>
+
+<ágeis, 1>
+
+<gerenciar, 1>
+
+<procedimento, 1>
+
+<aquisição, 2>
+
+<contexto, 1>
+
+<empresas, 1>
+
+<desenvolvimento, 1>
+
+<software, 1>
+
+<baseado, 1>
+
+<processo, 2>
+
+<supplier, 1>
+
+<agreeement, 1>
+
+<management, 1>
+
+<cmmi-dev, 1>
+
+<mrmps-sw, 1>
+

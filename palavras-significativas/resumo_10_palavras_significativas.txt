@@ -1,0 +1,86 @@
+
+
+Resumo 10:
+
+<resumo10, 40>
+
+<modelo, 1>
+
+<documentação, 2>
+
+<estudado, 1>
+
+<cursos, 1>
+
+<superiores, 1>
+
+<computação, 1>
+
+<metodologias, 1>
+
+<ágeis, 2>
+
+<ocupam, 1>
+
+<mercado, 1>
+
+<atual, 1>
+
+<manifesto, 1>
+
+<pregam, 1>
+
+<simplicidade, 1>
+
+<rapidez, 1>
+
+<características, 1>
+
+<processos, 2>
+
+<minuciosos, 1>
+
+<apresenta, 1>
+
+<resultados, 2>
+
+<obtidos, 2>
+
+<aplicar, 1>
+
+<questionário, 1>
+
+<várias, 1>
+
+<empresas, 1>
+
+<desenvolvimento, 2>
+
+<software, 3>
+
+<estado, 1>
+
+<minas, 1>
+
+<gerias, 1>
+
+<intenção, 1>
+
+<descobrir, 1>
+
+<aplicação, 1>
+
+<contexto, 1>
+
+<estatísticos, 1>
+
+<apontam, 1>
+
+<necessidade, 1>
+
+<revisão, 1>
+
+<paradigmas, 1>
+
+<engenharia, 1>
+

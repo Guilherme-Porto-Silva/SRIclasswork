@@ -1,0 +1,356 @@
+[
+  {
+    "titulo": "Metodologias \u00c1geis Extreme Programming e Scrum para o Desenvolvimento de Software",
+    "autores": [
+      "Michel dos Santos Soares"
+    ],
+    "filiacao": [
+      "Universidade Presidente Ant\u00f4nio Carlos (UNIPAC), Conselheiro Lafaiete, MG"
+    ],
+    "resumo": "Este artigo apresenta algumas vantagens das metodologias \u00e1geis para desenvolver software em rela\u00e7\u00e3o \u00e0s metodologias tradicionais. Em particular s\u00e3o apresentadas as principais caracter\u00edsticas e as pr\u00e1ticas das metodologias \u00e1geis Extreme Programming e Scrum. Tamb\u00e9m s\u00e3o feitas compara\u00e7\u00f5es com as metodologias tradicionais, procurando enfatizar que as metodologias \u00e1geis s\u00e3o baseadas em pessoas e n\u00e3o em processos e planejamentos. Finalmente s\u00e3o apresentadas as principais vantagens e desvantagens da Extreme Programming e da Scrum. Tamb\u00e9m s\u00e3o apresentados alguns resultados emp\u00edricos do uso de metodologias \u00e1geis.",
+    "palavrasChave": [
+      "Engenharia de Software",
+      "Metodologias \u00c1geis",
+      "Extreme Programming",
+      "Scrum"
+    ],
+    "arquivo": "banco/Metodologias \u00c1geis Extreme Programing e Scrum para o Desenvolvimento de Softwere.pdf"
+  },
+  {
+    "titulo": "Metodologias \u00e1geis para o desenvolvimento de softwares",
+    "autores": [
+      "Thiago Bessa",
+      "Daniel Dias Branco Arthaud"
+    ],
+    "filiacao": [
+      "Universidade Federal do Cariri (UFCA) e Universidade de Lisboa",
+      "Universidade Federal do Cear\u00e1 (UFC)"
+    ],
+    "resumo": "O desenvolvimento de software \u00e9 uma atividade muito complexa. Devido a essa complexidade a Engenharia de Software foi criada. Ela tem por objetivo aumentar a produtividade no desenvolvimento e melhorar a qualidade do produto gerado. Diversas metodologias e pr\u00e1ticas surgiram com a inten\u00e7\u00e3o de direcionar o desenvolvimento. Inicialmente vieram as metodologias chamadas tradicionais: cascata, prototipa\u00e7\u00e3o, incremental. Elas traziam junto consigo muita rigidez e cada passo delas gerava diversos artefatos e documenta\u00e7\u00f5es, mesmo assim os resultados entregues pelos projetos geravam resultados abaixo do esperado. Com isso, metodologias \u00e1geis surgiram com a proposta de fornecer agilidade de resposta e flexibilidade de adapta\u00e7\u00e3o no desenvolvimento trazendo um diferencial competitivo atrav\u00e9s de velocidade e qualidade dos resultados. Esta revis\u00e3o t\u00e9cnica tem como objetivo apresentar um mecanismo para desenvolvimento \u00e1gil de software de modo a atender com mais rapidez e qualidade, reduzindo dessa forma o consumo desnecess\u00e1rio de recursos, auxiliando na promo\u00e7\u00e3o de um sistema sustent\u00e1vel. Compreendeu-se que essas t\u00e9cnicas \u00e1geis trouxeram uma grande evolu\u00e7\u00e3o na troca de experi\u00eancia, comunica\u00e7\u00e3o, transmiss\u00e3o de conhecimento, confian\u00e7a das pessoas, confian\u00e7a do cliente. E isso faz com que a produtividade da equipe cres\u00e7a e tamb\u00e9m faz com que a satisfa\u00e7\u00e3o do cliente seja maior.",
+    "palavrasChave": [
+      "Software",
+      "Metodologias",
+      "Pr\u00e1ticas \u00e1geis",
+      "Desenvolvimento"
+    ],
+    "arquivo": "banco/METODOLOGIAS \u00c1GEIS PARA O DESENVOLVIMENTO DE SOFTWARES.pdf"
+  },
+  {
+    "titulo": "Compara\u00e7\u00e3o entre Metodologias \u00c1geis e Tradicionais para o Desenvolvimento de Software",
+    "autores": [
+      "Michel dos Santos Soares"
+    ],
+    "filiacao": [
+      "Universidade Presidente Ant\u00f4nio Carlos (UNIPAC), Faculdade de Tecnologia e Ci\u00eancias de Conselheiro Lafaiete, MG"
+    ],
+    "resumo": "Este artigo faz uma compara\u00e7\u00e3o entre as metodologias tradicionais para desenvolvimento de software e as metodologias \u00e1geis. Em particular \u00e9 feita a compara\u00e7\u00e3o da Extreme Programming (XP), uma metodologia \u00e1gil muito usada, e o modelo Cl\u00e1ssico ou Sequencial. As pr\u00e1ticas da XP s\u00e3o apresentadas, enfatizando que suas caracter\u00edsticas s\u00e3o ideais para projetos que devem ter um desenvolvimento r\u00e1pido e que podem ter requisitos alterados constantemente pelos clientes.",
+    "palavrasChave": [
+      "Metodologias de Desenvolvimento",
+      "Extreme Programming",
+      "Modelo Cl\u00e1ssico"
+    ],
+    "arquivo": "banco/Compara\u00e7\u00e3o entre Metodologias \u00c1geis e Tradicionais para o Desenvolvimento de Software.pdf"
+  },
+  {
+    "titulo": "Metodologias \u00e1geis para o desenvolvimento de software: aplica\u00e7\u00e3o e o uso da metodologia Scrum em contraste ao modelo tradicional de gerenciamento de projetos",
+    "autores": [
+      "Daisy Eliana dos Santos Silva",
+      "Ingredy Tha\u00eds de Souza",
+      "Talita Camargo"
+    ],
+    "filiacao": [
+      "Universidade Guarulhos"
+    ],
+    "resumo": "Este artigo foi fomentado em estudos bibliogr\u00e1ficos sobre metodologias \u00e1gil e tradicional. Com objetivo de apresentar os principais problemas encontrados no s\u00e9culo XXI, no que diz respeito ao desenvolvimento de projetos de software e as metodologias dispon\u00edveis. Ser\u00e3o apresentadas as formas de trabalho das metodologias tradicional e a ferramenta SCRUM, onde seus valores e pr\u00e1ticas ser\u00e3o apresentados de modo a identificar e justificar suas principais diferen\u00e7as. Demonstrar um quadro comparativo entre algumas metodologias de desenvolvimento \u00e1gil e tradicional, os quais ser\u00e3o comparados e analisados entre os processos das metodologias \u00e1geis em rela\u00e7\u00e3o \u00e0s metodologias tradicionais. Com intuito de proporcionar condi\u00e7\u00f5es favor\u00e1veis para avalia\u00e7\u00e3o e escolha da metodologia que atenda as necessidades dos clientes no desenvolvimento de software.",
+    "palavrasChave": [
+      "Metodologia \u00c1gil",
+      "SCRUM",
+      "Metodologias Tradicionais",
+      "Desenvolvimento de software"
+    ],
+    "arquivo": "banco/METODOLOGIAS \u00c1GEIS PARA O DESENVOLVIMENTO DE SOFTWARE APLICA\u00c7\u00c3O E O USO DA METODOLOGIA SCRUM EM CONTRASTE AO MODELO TRADICIONAL DE GERENCIAMENTO DE PROJETOS.pdf"
+  },
+  {
+    "titulo": "A implanta\u00e7\u00e3o das metodologias \u00e1geis de desenvolvimento de software Scrum e Extreme Programming (XP): uma alternativa para pequenas empresas do setor de tecnologia da informa\u00e7\u00e3o",
+    "autores": [
+      "Rodrigo Dantas Nunes"
+    ],
+    "filiacao": [
+      "Universidade Federal de Lavras (UFLA)"
+    ],
+    "resumo": "Este trabalho apresenta um caso de uso de implanta\u00e7\u00e3o das metodologias \u00e1geis de desenvolvimento, Scrum e Extreme Programming (XP), e ressalta tal abordagem como uma alternativa para pequenas empresas de Tecnologia da Informa\u00e7\u00e3o (TI). Tal abordagem se faz necess\u00e1ria em fun\u00e7\u00e3o da falta de processos formais de desenvolvimento em empresas deste perfil, o que acarreta certos problemas \u00e0 constru\u00e7\u00e3o de softwares. O objetivo \u00e9 viabilizar a solu\u00e7\u00e3o para a falta de um modelo de desenvolvimento atrav\u00e9s da implanta\u00e7\u00e3o das referidas metodologias. Este prop\u00f3sito ser\u00e1 conseguido mediante o levantamento dos conceitos a volta do tema e a apresenta\u00e7\u00e3o de como implantar estas metodologias. Ao final, este estudo evidencia que Scrum e XP podem contribuir para a organiza\u00e7\u00e3o e a formaliza\u00e7\u00e3o do processo de desenvolvimento de software utilizado em pequenas empresas de TI, al\u00e9m de favorec\u00ea-las com um ganho de produtividade.",
+    "palavrasChave": [
+      "Metodologias \u00e1geis",
+      "Scrum",
+      "Extreme Programming",
+      "XP",
+      "Tecnologia da Informa\u00e7\u00e3o"
+    ],
+    "arquivo": "banco/A Implanta\u00e7\u00e3o das metodologias \u00e1geis de desenvolvimento de software scrum e extreme programming(XP) uma alternativa para pequenas empresas do setor de tecnologia da informa\u00e7\u00e3o.pdf"
+  },
+  {
+    "titulo": "Favorabilidade na ado\u00e7\u00e3o de pr\u00e1ticas de metodologias \u00e1geis no desenvolvimento de software",
+    "autores": [
+      "Arno Windm\u00f6ller"
+    ],
+    "filiacao": [
+      "Universidade Cat\u00f3lica de Bras\u00edlia (UCB), Bras\u00edlia, DF"
+    ],
+    "resumo": "O objetivo principal deste estudo \u00e9 o desenvolvimento de um modelo de avalia\u00e7\u00e3o do grau de favorabilidade na ado\u00e7\u00e3o de pr\u00e1ticas de metodologias \u00e1geis em organiza\u00e7\u00f5es onde predomina o uso de pr\u00e1ticas de metodologias tradicionais no desenvolvimento de seus softwares. Para alcan\u00e7ar esse objetivo foram revisados os conceitos te\u00f3ricos relacionados \u00e0s metodologias \u00e1geis, destacando as suas pr\u00e1ticas em confronto com aquelas das metodologias tradicionais. A partir dessa revis\u00e3o, elaborou-se um instrumento de pesquisa submetido sob a estrat\u00e9gia de pesquisa survey junto aos especialistas em desenvolvimento de software de um banco de varejo brasileiro, reconhecido pela expressividade do seu volume de ativos e opera\u00e7\u00f5es e, tamb\u00e9m, pela sua abrang\u00eancia transnacional de atua\u00e7\u00e3o. Os dados quantitativos oriundos das quest\u00f5es fechadas do instrumento de pesquisa foram analisados por meio de duas t\u00e9cnicas estat\u00edsticas. A primeira, a t\u00e9cnica multivariada de an\u00e1lise fatorial explorat\u00f3ria, aplicada na valida\u00e7\u00e3o da estrutura das perspectivas relacionadas \u00e0s pr\u00e1ticas \u00e1geis do modelo de avalia\u00e7\u00e3o proposto. A segunda, a t\u00e9cnica univariada de an\u00e1lise de frequ\u00eancia das respostas, conforme distribui\u00e7\u00e3o das mesmas. Os dados qualitativos oriundos da quest\u00e3o aberta do instrumento de pesquisa foram analisados por meio da t\u00e9cnica de an\u00e1lise de conte\u00fado qualitativa tem\u00e1tica, quando foram evidenciadas as perspectivas das pr\u00e1ticas \u00e1geis do modelo e a distribui\u00e7\u00e3o das frequ\u00eancias das respostas, oriundas da an\u00e1lise quantitativa. Como resultados do estudo destacam-se o desenvolvimento do modelo de avalia\u00e7\u00e3o do grau de favorabilidade na ado\u00e7\u00e3o de pr\u00e1ticas de metodologias \u00e1geis no contexto de estudo proposto, sua valida\u00e7\u00e3o estat\u00edstica e avalia\u00e7\u00e3o daquele grau de favorabilidade na organiza\u00e7\u00e3o sob estudo. Uma limita\u00e7\u00e3o deste estudo reside no fato desse modelo ter sido desenvolvido com base numa \u00fanica organiza\u00e7\u00e3o banc\u00e1ria, n\u00e3o permitindo generaliza\u00e7\u00e3o externa dos resultados da an\u00e1lise das frequ\u00eancias das respostas, embora propicie a generaliza\u00e7\u00e3o te\u00f3rica presente no modelo, que poder\u00e1 ser aplicado em outras organiza\u00e7\u00f5es com predom\u00ednio do uso de pr\u00e1ticas de metodologias tradicionais no desenvolvimento de software.",
+    "palavrasChave": [
+      "Metodologia de desenvolvimento de software",
+      "Metodologia tradicional",
+      "Metodologia \u00e1gil",
+      "Requisitos de m\u00e9todos \u00e1geis",
+      "Engenharia de software"
+    ],
+    "arquivo": "banco/Favorabilidade na ado\u00e7\u00e3o de pr\u00e1ticas de metodologias \u00e1geis no desenvolvimento de software.pdf"
+  },
+  {
+    "titulo": "A import\u00e2ncia do Design Centrado no Usu\u00e1rio em metodologias \u00e1geis como requisito de usabilidade",
+    "autores": [
+      "Pedro Manoel de Azevedo",
+      "Daniela Gibertoni"
+    ],
+    "filiacao": [
+      "Faculdade de Tecnologia (Fatec), Taquaritinga, SP",
+      "Faculdade de Tecnologia (Fatec), Taquaritinga, SP"
+    ],
+    "resumo": "Em virtude da competividade no mercado de desenvolvimento de software, ao longo das \u00faltimas d\u00e9cadas, os m\u00e9todos de desenvolvimento de software v\u00eam a cada nova gera\u00e7\u00e3o se especializando e tornando os processos cada vez mais eficientes. Entretanto, nenhuma metodologia foca explicitamente no Design Centrado no Usu\u00e1rio, o que implica em insatisfa\u00e7\u00e3o do cliente pela falta de adequa\u00e7\u00e3o as suas necessidades, retrabalho, defici\u00eancia de requisitos que atendam ao projeto e outros problemas, que acabam afetando os custos e cronograma das equipes de desenvolvimento. Em decorr\u00eancia dessas vulnerabilidades o presente artigo tem como finalidade correlacionar os modelos \u00e1geis com t\u00e9cnicas de usabilidade e Design Centrado no usu\u00e1rio para gerar satisfa\u00e7\u00e3o aos clientes. A revis\u00e3o bibliogr\u00e1fica sistem\u00e1tica abordada neste artigo prop\u00f5e-se a abordar artigos e teses acad\u00eamicas referentes ao Design Centrado no Usu\u00e1rio, Metodologias \u00c1geis e Usabilidade, fazendo a converg\u00eancia dos benef\u00edcios dessas metodologias, assim como a correla\u00e7\u00e3o entre elas. Como resultados foram encontradas vulnerabilidades nas metodologias \u00e1geis em rela\u00e7\u00e3o a comunica\u00e7\u00e3o entre usu\u00e1rios e as partes interessadas do projeto e que podem ser sanadas com a utiliza\u00e7\u00e3o de uma eficiente an\u00e1lise de requisitos aliado ao uso de outras ferramentas direcionadas ao design centrado no usu\u00e1rio.",
+    "palavrasChave": [
+      "Design Centrado no Usu\u00e1rio",
+      "Desenvolvimento \u00c1gil de Processo de Software",
+      "Integra\u00e7\u00e3o \u00c1gil de Design Centrado no Usu\u00e1rio",
+      "Usabilidade"
+    ],
+    "arquivo": "banco/A IMPORT\u00c2NCIA DO DESIGN CENTRADO NO USU\u00c1RIO EM METODOLOGIAS AGEIS COMO REQUISITO DE USABILIDADE.pdf"
+  },
+  {
+    "titulo": "Modelo de Desenvolvimento de Objetos de Aprendizagem Baseado em Metodologias \u00c1geis e Scaffoldings",
+    "autores": [
+      "F\u00e1bio Lapolli",
+      "Cristiane Moura Cruz",
+      "Cl\u00e1udia L. R. Motta",
+      "Carlo E. T. Oliveira"
+    ],
+    "filiacao": [
+      "Universidade Federal do Rio de Janeiro (UFRJ), N\u00facleo de Computa\u00e7\u00e3o Eletr\u00f4nica (NCE), Rio de Janeiro, RJ"
+    ],
+    "resumo": "O desenvolvimento de objetos de aprendizagem exige modelos instrucionais e de esenvolvimento flex\u00edveis, por se tratar de uma categoria de software com um conjunto de requisitos bastante espec\u00edficos e demandas tecnol\u00f3gicas singulares. O uso de metodologias \u00e1geis para o desenvolvimento de objetos de aprendizagem pode facilitar esse processo permitindo a modelagem das funcionalidades baseados nos requisitos de comportamento do aluno. O presente artigo tem como objetivo discorrer sobre uma experi\u00eancia no de desenvolvimento de objetos de aprendizagem, baseado em metodologias \u00e1geis e interface baseada em scaffoldings.",
+    "palavrasChave": [
+      "Objetos de Aprendizagem",
+      "Metodologias \u00c1geis",
+      "Scaffolding",
+      "Desenvolvimento Dirigido ao Comportamento"
+    ],
+    "arquivo": "banco/Modelo de Desenvolvimento de Objetos de Aprendiagem Baseado em Metodologias \u00c1geis e Scaffoldings.pdf"
+  },
+  {
+    "titulo": "Uma an\u00e1lise sobre o uso de metodologias \u00e1geis de desenvolvimento de software em startups",
+    "autores": [
+      "Jesse Gabriel Pontes Mendes"
+    ],
+    "filiacao": [
+      "Universidade Federal do Maranh\u00e3o (UFMA), S\u00e3o Lu\u00eds, MA"
+    ],
+    "resumo": "Metodologias \u00e1geis s\u00e3o utilizadas em todos os tipos de empresas de desenvolvimento de software, incluindo startups. As startups n\u00e3o seguem processos de forma rigorosa ou de maneira completa. Desta forma, \u00e9 necess\u00e1rio analisar como as startups definem e executam as pr\u00e1ticas descritas nas metodologias \u00e1geis. Este trabalho de conclus\u00e3o de curso visa analisar como membros de startups utilizam as metodologias \u00e1geis na pr\u00e1tica. Para isso, realizou-se uma pesquisa de opini\u00e3o (survey) que obteve 26 respostas v\u00e1lidas avaliadas de pessoas que atuam ou atuaram no ramo de startups, junto com a realiza\u00e7\u00e3o de seis entrevistas com pessoas do meio. Os resultados de ambos foram analisados e relacionados e mostram que startups n\u00e3o seguem recomenda\u00e7\u00f5es das metodologias \u00e1geis de forma rigorosa, utilizam metodologias \u00e1geis em conjunto e possuem algumas condi\u00e7\u00f5es favor\u00e1veis que influenciam se v\u00e3o seguir as pr\u00e1ticas das metodologias \u00e1geis ou n\u00e3o. Tamb\u00e9m identificou-se que essas organiza\u00e7\u00f5es n\u00e3o se preocupam com a etapa de documenta\u00e7\u00e3o e realizam garantia de qualidade do produto atrav\u00e9s de conversas com os clientes e feedbacks fornecidos pelos mesmos.",
+    "palavrasChave": [],
+    "arquivo": "banco/Uma an\u00e1lise sobre o uso de metodologias \u00e1geis de desenvolvimento de software em startups.pdf"
+  },
+  {
+    "titulo": "Aplica\u00e7\u00e3o da UML no contexto das metodologias \u00e1geis",
+    "autores": [
+      "Alan Martins Xavier",
+      "F\u00e1bio Rodrigues Martins",
+      "Ricardo Bitencourt Pimentel",
+      "Denis Rocha de Carvalho"
+    ],
+    "filiacao": [
+      "Instituto Federal de Minas Gerais (IFMG), Campus S\u00e3o Jo\u00e3o Evangelista, MG"
+    ],
+    "resumo": "A UML \u00e9 um modelo de documenta\u00e7\u00e3o bastante estudado nos cursos superiores da \u00e1rea de computa\u00e7\u00e3o, mas as metodologias \u00e1geis ocupam grande parte do mercado atual e elas em seu manifesto pregam por simplicidade, rapidez, entre outras caracter\u00edsticas que v\u00e3o contra processos minuciosos de documenta\u00e7\u00e3o. Esse trabalho apresenta os resultados obtidos ao se aplicar um question\u00e1rio em v\u00e1rias empresas de desenvolvimento de software no estado de Minas Gerias com inten\u00e7\u00e3o de descobrir a aplica\u00e7\u00e3o da UML no contexto dos processos \u00e1geis de desenvolvimento de software. Os resultados estat\u00edsticos obtidos apontam a necessidade de revis\u00e3o em v\u00e1rios paradigmas da Engenharia de Software.",
+    "palavrasChave": [],
+    "arquivo": "banco/Aplica\u00e7\u00e3o da UML no contexto das metodologias \u00e1geis.pdf"
+  },
+  {
+    "titulo": "Revis\u00e3o integrativa sobre o uso de metodologias \u00e1geis no gerenciamento de projetos de infraestrutura hospitalar",
+    "autores": [
+      "Murilo Reim\u00e3o Nicolosi Nobrega Pombo"
+    ],
+    "filiacao": [
+      "Universidade Federal de Uberl\u00e2ndia (UFU), Uberl\u00e2ndia, MG"
+    ],
+    "resumo": "A crescente demanda por infraestrutura hospitalar de qualidade, aliada a desafios como prazos reduzidos, restri\u00e7\u00f5es or\u00e7ament\u00e1rias e situa\u00e7\u00f5es emergenciais, impulsiona a busca por m\u00e9todos mais eficazes de gerenciamento de projetos no setor da sa\u00fade. Nesse contexto, as metodologias \u00e1geis, originadas no desenvolvimento de software e fundamentadas no Manifesto \u00c1gil, v\u00eam se destacando pela capacidade de promover entregas incrementais, flexibilidade e comunica\u00e7\u00e3o cont\u00ednua entre equipes multidisciplinares. Pr\u00e1ticas como Scrum, Kanban e Lean se mostram adequadas para atender \u00e0s constantes mudan\u00e7as de requisitos e \u00e0s necessidades espec\u00edficas dos ambientes hospitalares, oferecendo respostas r\u00e1pidas e eficientes frente a imprevistos, como os observados durante a pandemia de COVID-19. O presente estudo analisou, por meio de revis\u00e3o integrativa, a aplica\u00e7\u00e3o dessas metodologias no gerenciamento de projetos hospitalares. Como resultado, demonstrou que sua ado\u00e7\u00e3o pode otimizar a execu\u00e7\u00e3o de obras, reduzir custos, agilizar prazos e garantir maior qualidade nas entregas, evidenciando que as metodologias \u00e1geis promovem maior efici\u00eancia na execu\u00e7\u00e3o de projetos hospitalares. Conclui-se que essas abordagens representam uma alternativa inovadora e estrat\u00e9gica para a moderniza\u00e7\u00e3o da gest\u00e3o da infraestrutura em sa\u00fade p\u00fablica.",
+    "palavrasChave": [
+      "Efici\u00eancia",
+      "Infraestrutura hospitalar",
+      "Gerenciamento de projetos",
+      "Metodologias \u00e1geis"
+    ],
+    "arquivo": "banco/REVIS\u00c3O INTEGRATIVA SOBRE O USO DE METODOLOGIAS.pdf"
+  },
+  {
+    "titulo": "Tayloriza\u00e7\u00e3o e auto-tayloriza\u00e7\u00e3o do trabalho: as metodologias \u00e1geis na ind\u00fastria de software",
+    "autores": [
+      "Henrique Amorim",
+      "Maur\u00edcio Reis Grazia"
+    ],
+    "filiacao": [
+      "Universidade Federal de S\u00e3o Paulo (UNIFESP), Campus Guarulhos, SP"
+    ],
+    "resumo": "A proposta desse artigo \u00e9 analisar criticamente as metodologias \u00e1geis, presentes na produ\u00e7\u00e3o de software. Com este objetivo, nos questionamos em que medida tal produ\u00e7\u00e3o e formas de organiza\u00e7\u00e3o do trabalho reproduzem antigas formas de organiza\u00e7\u00e3o do trabalho, sobretudo, as taylor-fordistas e as toyotistas. Contrariamente as teses que apresentam a emerg\u00eancia do trabalho imaterial como um momento paradigm\u00e1tico de ruptura com a produ\u00e7\u00e3o industrial, temos por objetivo debater em que medida o \u201cnovo\u201d, presente nessas formas de organiza\u00e7\u00e3o do trabalho no s\u00e9culo XXI, se configurariam como adapta\u00e7\u00f5es do taylor-fordismo e do toyotismo a uma nova fronteira produtiva pouco ou nada explorada pelo capital nos s\u00e9culos XIX e XX, a produ\u00e7\u00e3o imaterial.",
+    "palavrasChave": [
+      "Metodologias \u00e1geis",
+      "Ind\u00fastria de software",
+      "Taylor-fordismo",
+      "Toyotismo",
+      "Trabalho imaterial"
+    ],
+    "arquivo": "banco/Tayloriza\u00e7\u00e3o e auto-tayloriza\u00e7\u00e3o do trabalho as metodologias \u00e1geis na ind\u00fastria de software.pdf"
+  },
+  {
+    "titulo": "Ado\u00e7\u00e3o de metodologias \u00e1geis em pequenas empresas de software: desafios iniciais e benef\u00edcios organizacionais",
+    "autores": [
+      "Guilherme da Silva Souza",
+      "Giuliano Scombatti Pinto"
+    ],
+    "filiacao": [
+      "Faculdade de Tecnologia de Taquaritinga (Fatec), Taquaritinga, SP"
+    ],
+    "resumo": "A implementa\u00e7\u00e3o das metodologias \u00e1geis tem sido um diferencial para as empresas que as adotam. Trata-se de metodologias que reduzem os custos de uma empresa, melhoram a comunica\u00e7\u00e3o entre as equipes de desenvolvimento e gest\u00e3o, aceleram os resultados e as entregas de produtos, e promovem benef\u00edcios como aumento da produtividade das equipes, maior transpar\u00eancia nos processos, redu\u00e7\u00e3o de retrabalho, entregas cont\u00ednuas de valor ao cliente, al\u00e9m de fortalecerem a colabora\u00e7\u00e3o e a capacidade de adapta\u00e7\u00e3o \u00e0s mudan\u00e7as. No entanto, pequenas empresas podem enfrentar muitos desafios ao tentar implement\u00e1-las, pois possuem limita\u00e7\u00f5es, como recursos escassos e dificuldade no treinamento e capacita\u00e7\u00e3o das equipes. Este artigo tem como objetivo analisar as vantagens dessas metodologias e quais s\u00e3o as dificuldades enfrentadas pelas pequenas empresas de software quando est\u00e3o implementando-as nas fases iniciais e benef\u00edcios quando implementadas com sucesso. A metodologia adotada para a realiza\u00e7\u00e3o deste artigo foi a pesquisa bibliogr\u00e1fica. A partir do material estudado, observou-se que as metodologias \u00e1geis representam ferramentas altamente eficazes para promover a flexibilidade e a inova\u00e7\u00e3o nos processos organizacionais. Conclui-se que, quando corretamente implementadas e seguidas conforme os princ\u00edpios do Manifesto \u00c1gil citado neste artigo, as metodologias possibilitam \u00e0s organiza\u00e7\u00f5es se destacarem no \u00e2mbito competitivo.",
+    "palavrasChave": [
+      "Metodologias \u00e1geis",
+      "Pequenas empresas",
+      "Equipes",
+      "Desenvolvimento de Software"
+    ],
+    "arquivo": "banco/ADO\u00c7\u00c3O DE METODOLOGIAS \u00c1GEIS EM PEQUENAS EMPRESAS DE SOFTWARE Desafios Iniciais e Benef\u00edcios Organizacionais.pdf"
+  },
+  {
+    "titulo": "Ado\u00e7\u00e3o de metodologias \u00e1geis na gest\u00e3o de TI no setor p\u00fablico: uma revis\u00e3o sistem\u00e1tica da literatura",
+    "autores": [
+      "Isa Kaillany Soares Pereira"
+    ],
+    "filiacao": [
+      "Universidade Federal do Rio Grande do Norte (UFRN), Centro de Ensino Superior do Serid\u00f3, Caic\u00f3, RN"
+    ],
+    "resumo": "Esta Revis\u00e3o Sistem\u00e1tica da Literatura (RSL) teve como objetivo identificar, recuperar e analisar as boas pr\u00e1ticas descritas na produ\u00e7\u00e3o cient\u00edfica relacionadas \u00e0 gest\u00e3o e ao desenvolvimento \u00e1gil de tecnologias, inova\u00e7\u00f5es e novos produtos de Tecnologia da Informa\u00e7\u00e3o (TI). O panorama constru\u00eddo busca subsidiar gestores p\u00fablicos de TI na tomada de decis\u00e3o e no direcionamento estrat\u00e9gico do setor na utiliza\u00e7\u00e3o de metodologias \u00e1geis. A motiva\u00e7\u00e3o para o estudo est\u00e1 centrada nos desafios enfrentados pelos setores de TI na capacidade de manter, inovar e otimizar os processos internos. Este cen\u00e1rio de complexidade gerencial resulta no comprometimento da qualidade e na melhor aloca\u00e7\u00e3o de recursos, em especial da equipe de TI. Tais desafios s\u00e3o particularmente cr\u00edticos na \u00e1rea de TI. A ado\u00e7\u00e3o de metodologias \u00e1geis \u00e9 considerada um fator que favorece a realiza\u00e7\u00e3o de entregas em menor tempo e a gera\u00e7\u00e3o de valor ao longo do processo. Al\u00e9m disso, o uso \u00e1gil proporciona maior capacidade de adapta\u00e7\u00e3o a requisitos em constante mudan\u00e7a e promove a qualidade dos sistemas entregues, principalmente em aspectos como facilidade de testes e rapidez na corre\u00e7\u00e3o de falhas. Esta revis\u00e3o contextualiza crit\u00e9rios de ado\u00e7\u00e3o utilizados para aplica\u00e7\u00e3o das metodologias \u00e1geis sendo fatores essenciais para sustentar a execu\u00e7\u00e3o eficaz dos processos \u00e1geis e ainda observa se h\u00e1 ado\u00e7\u00e3o de crit\u00e9rios para utiliza\u00e7\u00e3o de ferramentas de IA na gest\u00e3o e desenvolvimento de produtos de TI.",
+    "palavrasChave": [
+      "Metodologias \u00e1geis",
+      "Gest\u00e3o de TI",
+      "Setor p\u00fablico",
+      "Revis\u00e3o sistem\u00e1tica"
+    ],
+    "arquivo": "banco/ADO\u00c7\u00c3O DE METODOLOGIAS \u00c1GEIS NA GEST\u00c3O DE TI NO SETOR P\u00daBLICO - UMA REVIS\u00c3O SISTEM\u00c1TICA DA LITERATURA.pdf"
+  },
+  {
+    "titulo": "Revis\u00e3o sistem\u00e1tica da ado\u00e7\u00e3o do Scrum no desenvolvimento de software",
+    "autores": [
+      "Diovana Cesconetto Vitorino",
+      "Mateus Coelho Santos",
+      "Rom\u00e1rio Vitorino Ferreira"
+    ],
+    "filiacao": [
+      "Afya Centro Universit\u00e1rio de Ji-Paran\u00e1, Ji-Paran\u00e1, RO"
+    ],
+    "resumo": "O desenvolvimento de software tem evolu\u00eddo significativamente nas \u00faltimas d\u00e9cadas, impulsionado pela necessidade de entregas mais r\u00e1pidas, flex\u00edveis e centradas no cliente. Nesse contexto, as metodologias \u00e1geis emergem como alternativas aos modelos tradicionais de desenvolvimento, oferecendo abordagens interativas e colaborativas. Este artigo tem como objetivo analisar, por meio de uma revis\u00e3o da literatura, o uso da metodologia \u00e1gil Scrum como uma alternativa eficiente no desenvolvimento de software. Para isso, foram selecionadas obras de refer\u00eancia em uma biblioteca virtual, utilizando os termos \u201cEngenharia de Software\u201d, \u201cMetodologias para Desenvolvimento de Software\u201d e \u201cScrum\u201d. A fundamenta\u00e7\u00e3o te\u00f3rica contempla a evolu\u00e7\u00e3o da engenharia de software, os princ\u00edpios do Manifesto \u00c1gil e o detalhamento dos pap\u00e9is, artefatos e cerim\u00f4nias do framework Scrum. Os resultados apontam que o Scrum contribui para uma maior organiza\u00e7\u00e3o das equipes, entrega cont\u00ednua de valor e melhor gest\u00e3o de projetos em ambientes din\u00e2micos. Conclui-se que sua ado\u00e7\u00e3o depende da compreens\u00e3o de seus fundamentos e do preparo das equipes para mudan\u00e7as culturais e estruturais e que, quando bem implementado, o Scrum proporciona maior controle sobre prazos, qualidade da entrega e alinhamento com os objetivos do cliente, sendo uma alternativa vi\u00e1vel e cada vez mais adotada pelas equipes de desenvolvimento de software.",
+    "palavrasChave": [
+      "Engenharia de Software",
+      "Metodologias \u00c1geis",
+      "Scrum"
+    ],
+    "arquivo": "banco/Revis\u00e3o Sistem\u00e1tica da Ado\u00e7\u00e3o do Scrum no Desenvolvimento de Software.pdf"
+  },
+  {
+    "titulo": "Um estudo sobre metodologias \u00e1geis e sua correla\u00e7\u00e3o com o \u00eaxito em projetos de software",
+    "autores": [
+      "Gaspar Soares de Alencar"
+    ],
+    "filiacao": [
+      "Universidade Federal de Campina Grande (UFCG), Campina Grande, PB"
+    ],
+    "resumo": "Este artigo investiga a efic\u00e1cia das metodologias \u00e1geis em projetos de desenvolvimento de software e sua rela\u00e7\u00e3o com o sucesso. O estudo aprofunda a compreens\u00e3o das pr\u00e1ticas e princ\u00edpios fundamentais das metodologias \u00e1geis, como o Manifesto \u00c1gil e os 12 Princ\u00edpios \u00c1geis. Al\u00e9m disso, a pesquisa analisa como diversos fatores, como o apoio executivo, a maturidade emocional das equipes, o envolvimento dos usu\u00e1rios, a otimiza\u00e7\u00e3o de recursos, a qualifica\u00e7\u00e3o dos membros da equipe e outros elementos, impactam a taxa de sucesso de projetos \u00e1geis. Tamb\u00e9m s\u00e3o investigados os obst\u00e1culos e desafios comuns que as organiza\u00e7\u00f5es enfrentam ao implementar essas metodologias, incluindo a resist\u00eancia \u00e0 mudan\u00e7a e conflitos culturais. O trabalho enfatiza a relev\u00e2ncia das metodologias \u00e1geis na melhoria do desempenho em projetos de software e fornece diretrizes valiosas para organiza\u00e7\u00f5es que buscam adotar ou aprimorar suas pr\u00e1ticas \u00e1geis. O estudo oferece uma vis\u00e3o abrangente do universo \u00e1gil, abordando suas vantagens e desafios, e apresenta recomenda\u00e7\u00f5es pr\u00e1ticas para aprimorar a implementa\u00e7\u00e3o de abordagens \u00e1geis nas empresas de desenvolvimento de software.",
+    "palavrasChave": [
+      "Metodologias \u00e1geis",
+      "projetos de software",
+      "Manifesto \u00c1gil"
+    ],
+    "arquivo": "banco/Um estudo sobre metodologias \u00e1geis e sua correla\u00e7\u00e3o com o \u00eaxito em projetos de software..pdf"
+  },
+  {
+    "titulo": "Os desafios da gest\u00e3o de equipes remotas com metodologias \u00e1geis: uma revis\u00e3o sistem\u00e1tica da literatura sobre aspectos humanos e t\u00e9cnicos",
+    "autores": [
+      "Ang\u00e9lica Gomes da Silva",
+      "Thaysson Vitor Fernandes de Souza",
+      "Douglas Vieira Barboza"
+    ],
+    "filiacao": [
+      "Universidade de Vassouras, Campus Maric\u00e1, RJ",
+      "Centro Universit\u00e1rio Maur\u00edcio de Nassau, Mossor\u00f3, RN"
+    ],
+    "resumo": "O estudo em quest\u00e3o analisou os desafios e estrat\u00e9gias relacionadas \u00e0 gest\u00e3o de equipes \u00e1geis em contextos remotos e h\u00edbridos na Engenharia de Software, considerando as dimens\u00f5es humanas, gerenciais e t\u00e9cnicas. A pesquisa teve como prop\u00f3sito identificar e categorizar as principais dificuldades enfrentadas por equipes distribu\u00eddas, avaliar as estrat\u00e9gias propostas na literatura recente e compreender o impacto gerado pela cultura digital, da automa\u00e7\u00e3o e da intelig\u00eancia artificial (IA) sobre a pr\u00e1tica da agilidade contempor\u00e2nea. A metodologia utilizada baseou-se em uma Revis\u00e3o Sistem\u00e1tica da Literatura (RSL), conduzida segundo o protocolo PRISMA adaptado, com busca nas bases Scopus, Scielo e Web of Science, abrangendo o per\u00edodo de 2015 a 2025. Foram selecionados trinta e cinco estudos que atenderam aos crit\u00e9rios de inclus\u00e3o, contemplando tanto aspectos humanos (comunica\u00e7\u00e3o, lideran\u00e7a e engajamento) quanto t\u00e9cnicos (qualidade de software, DevOps, Integra\u00e7\u00e3o e Entrega Cont\u00ednuas \u2014 CI/CD). Os resultados evidenciaram que, na dimens\u00e3o humana, os principais desafios est\u00e3o associados \u00e0 perda das intera\u00e7\u00f5es presenciais, \u00e0 dificuldade de manuten\u00e7\u00e3o da coes\u00e3o e ao aumento do risco de esgotamento emocional (Burnout). J\u00e1 na dimens\u00e3o t\u00e9cnica, destacam-se as falhas nos pipelines (conjuntos de processos automatizados) de CI/CD, a morosidade em revis\u00f5es ass\u00edncronas de c\u00f3digo e a falta de maturidade na automa\u00e7\u00e3o dos processos. As estrat\u00e9gias mais eficientes identificadas envolvem a implementa\u00e7\u00e3o de uma cultura de confian\u00e7a, a redefini\u00e7\u00e3o do papel da lideran\u00e7a com \u00eanfase em autonomia e empatia, e a incorpora\u00e7\u00e3o de tecnologias de automa\u00e7\u00e3o e IA para otimiza\u00e7\u00e3o da gest\u00e3o \u00e1gil. Conclui-se que a efic\u00e1cia da gest\u00e3o \u00e1gil em ambientes distribu\u00eddos depende de uma articula\u00e7\u00e3o equilibrada entre cultura organizacional, maturidade t\u00e9cnica e lideran\u00e7a emp\u00e1tica.",
+    "palavrasChave": [
+      "Trabalho remoto",
+      "Metodologias \u00e1geis",
+      "Gest\u00e3o de equipes",
+      "CI/CD",
+      "DevOps"
+    ],
+    "arquivo": "banco/DesafiosGestaoEquipesRemotasMetodologiasAgeis.pdf"
+  },
+  {
+    "titulo": "Uma abordagem para a implementa\u00e7\u00e3o da Ger\u00eancia do Fornecedor usando metodologias \u00e1geis",
+    "autores": [
+      "Elisiane Monteiro Soares",
+      "Sandro Ronaldo Bezerra Oliveira",
+      "Melquizedeque Cabral dos Santos",
+      "Alexandre Marcos Lins de Vasconcelos"
+    ],
+    "filiacao": [
+      "Universidade Federal do Par\u00e1 (UFPA), Bel\u00e9m, PA",
+      "Universidade Federal de Pernambuco (UFPE), Recife, PE"
+    ],
+    "resumo": "Esse artigo prop\u00f5e uma abordagem de boas pr\u00e1ticas utilizando m\u00e9todos \u00e1geis para gerenciar o procedimento de aquisi\u00e7\u00e3o no contexto de empresas de desenvolvimento de software, baseado na \u00e1rea de processo Supplier Agreeement Management do CMMI-DEV e no processo de Aquisi\u00e7\u00e3o do MRMPS-SW.",
+    "palavrasChave": [],
+    "arquivo": "banco/Uma Abordagem para a Implementa\u00e7\u00e3o da Ger\u00eancia do Fornecedor usando Metodologias \u00c1geis.pdf"
+  },
+  {
+    "titulo": "Mapeando o caminho para a sustentabilidade: an\u00e1lise SWOT",
+    "autores": [
+      "Vicente Lorenzoni Montibeler",
+      "Luiz Henrique Oliveira de Souza",
+      "Rodrigo Randow de Freitas"
+    ],
+    "filiacao": [
+      "Universidade Federal do Esp\u00edrito Santo (UFES), Centro Universit\u00e1rio Norte do Esp\u00edrito Santo (Ceunes), S\u00e3o Mateus, ES"
+    ],
+    "resumo": "Com o avan\u00e7o das discuss\u00f5es sobre sustentabilidade na transi\u00e7\u00e3o do s\u00e9culo XX para o XXI, tornou-se essencial compreender como esses temas impactam a estrat\u00e9gia organizacional. Este estudo tem como objetivo analisar a aplica\u00e7\u00e3o da Matriz SWOT no campo da engenharia de sustentabilidade, destacando seu papel na identifica\u00e7\u00e3o de oportunidades, amea\u00e7as, pontos fortes e pontos fracos em projetos sustent\u00e1veis. Para isso, realizou-se uma revis\u00e3o sistem\u00e1tica e bibliom\u00e9trica de publica\u00e7\u00f5es cient\u00edficas no per\u00edodo de 2002 a 2022, abrangendo bases de dados como Web of Science, Scopus, SciELO e Google Acad\u00eamico. Os resultados quantitativos evidenciam um crescimento significativo nas publica\u00e7\u00f5es sobre o tema, especialmente a partir de 2019. A an\u00e1lise qualitativa demonstrou a versatilidade da Matriz SWOT, frequentemente combinada com outras metodologias, para consolidar fatores cr\u00edticos em diferentes \u00e1reas de pesquisa. A ferramenta mostrou-se relevante tanto em estudos qualitativos quanto quantitativos, sendo amplamente utilizada para embasar a formula\u00e7\u00e3o de estrat\u00e9gias voltadas \u00e0 sustentabilidade. Conclui-se que a Matriz SWOT contribui de maneira significativa para a promo\u00e7\u00e3o de pr\u00e1ticas sustent\u00e1veis, auxiliando empresas e institui\u00e7\u00f5es na adapta\u00e7\u00e3o de modelos econ\u00f4micos e produtivos mais ecol\u00f3gicos e alinhados \u00e0s demandas contempor\u00e2neas.",
+    "palavrasChave": [
+      "Matriz SWOT",
+      "Engenharia de Sustentabilidade",
+      "Revis\u00e3o Sistem\u00e1tica",
+      "An\u00e1lise Bibliom\u00e9trica"
+    ],
+    "arquivo": "banco/MAPEANDO O CAMINHO PARA A SUSTENTABILIDADE AN\u00c1LISE SWOT.pdf"
+  },
+  {
+    "titulo": "SCPA: Software de Gerenciamento de Equipes de Desenvolvimento Utilizando Metodologias \u00c1geis",
+    "autores": [
+      "Dias, J. C.",
+      "Moura, L.",
+      "Pereira, T. F.",
+      "Silva, A. C.",
+      "Santos, M. P."
+    ],
+    "filiacao": [
+      "UniFOA \u2013 Centro Universit\u00e1rio de Volta Redonda, Volta Redonda, RJ"
+    ],
+    "resumo": "Com o mundo da tecnologia em constante mudan\u00e7a, novos requisitos e altera\u00e7\u00f5es no modelo de neg\u00f3cio das empresas s\u00e3o solicitadas \u00e0s equipes de desenvolvimento de software a cada instante, necessitando muita intera\u00e7\u00e3o entre as pessoas e respostas r\u00e1pidas para estas mudan\u00e7as. Isto propiciou uma crescente ado\u00e7\u00e3o das metodologias \u00e1geis de desenvolvimento de software, dentre elas destacando-se o framework Scrum, que tem como principais caracter\u00edsticas, indiv\u00edduos e intera\u00e7\u00f5es sobre processos e ferramentas, software funcionando sobre extensa documenta\u00e7\u00e3o, colabora\u00e7\u00e3o dos clientes sobre negocia\u00e7\u00e3o em contratos, respostas \u00e0s mudan\u00e7as sobre seguir um plano, caracter\u00edsticas fundamentais para as organiza\u00e7\u00f5es que buscam excel\u00eancia no mercado da tecnologia da informa\u00e7\u00e3o. Entretanto existem poucos softwares para desenvolvimento \u00e1gil no mercado e isso motivou o desenvolvimento de uma ferramenta customizada para a utiliza\u00e7\u00e3o do framework Scrum sendo denominada Software Colaborativo para Projetos \u00c1geis (SCPA). A ferramenta \u00e9 voltada para equipes de desenvolvimento de softwares que buscam otimizar o tempo de gerenciamento e melhorar a qualidade dos produtos desenvolvidos. O SCPA permite fazer o controle efetivo de requisitos, chamados de hist\u00f3rias no contexto das metodologias \u00e1geis, para o desenvolvimento de novos projetos de software e realizar suas devidas prioriza\u00e7\u00f5es para cada itera\u00e7\u00e3o. Tamb\u00e9m inclui outros facilitadores, como a possibilidade de adicionar coment\u00e1rios, anexar arquivos, cadastrar e documentar testes de maneira individual para cada hist\u00f3ria, possibilitando ainda a op\u00e7\u00e3o de gera\u00e7\u00e3o do gr\u00e1fico de burndown, que \u00e9 um indicador indispens\u00e1vel para equipes de desenvolvimento para monitoramento da produtividade, que poder\u00e1 ser gerado a qualquer momento durante cada ciclo de desenvolvimento.",
+    "palavrasChave": [
+      "Metodologia \u00c1gil",
+      "Scrum",
+      "Gr\u00e1fico de Burndown"
+    ],
+    "arquivo": "banco/SCPA software de gerenciamento de equipes de desenvolvimento utilizando metodologias \u00e1geis.pdf"
+  }
+]

@@ -1,0 +1,212 @@
+
+
+Resumo 6:
+
+<resumo6, 103>
+
+<objetivo, 2>
+
+<principal, 1>
+
+<estudo, 5>
+
+<desenvolvimento, 5>
+
+<modelo, 6>
+
+<avaliação, 4>
+
+<grau, 3>
+
+<favorabilidade, 3>
+
+<adoção, 2>
+
+<práticas, 7>
+
+<metodologias, 6>
+
+<ágeis, 5>
+
+<organizações, 2>
+
+<predomina, 1>
+
+<tradicionais, 3>
+
+<softwares, 1>
+
+<alcançar, 1>
+
+<revisados, 1>
+
+<conceitos, 1>
+
+<teóricos, 1>
+
+<relacionados, 1>
+
+<destacando, 1>
+
+<confronto, 1>
+
+<revisão, 1>
+
+<elaborou-se, 1>
+
+<instrumento, 3>
+
+<pesquisa, 4>
+
+<submetido, 1>
+
+<estratégia, 1>
+
+<survey, 1>
+
+<junto, 1>
+
+<especialistas, 1>
+
+<software, 2>
+
+<banco, 1>
+
+<varejo, 1>
+
+<brasileiro, 1>
+
+<reconhecido, 1>
+
+<expressividade, 1>
+
+<volume, 1>
+
+<ativos, 1>
+
+<operações, 1>
+
+<também, 1>
+
+<abrangência, 1>
+
+<transnacional, 1>
+
+<atuação, 1>
+
+<dados, 2>
+
+<quantitativos, 1>
+
+<oriundos, 2>
+
+<questões, 1>
+
+<fechadas, 1>
+
+<analisados, 2>
+
+<técnicas, 1>
+
+<estatísticas, 1>
+
+<primeira, 1>
+
+<técnica, 3>
+
+<multivariada, 1>
+
+<análise, 5>
+
+<fatorial, 1>
+
+<exploratória, 1>
+
+<aplicada, 1>
+
+<validação, 2>
+
+<estrutura, 1>
+
+<perspectivas, 2>
+
+<relacionadas, 1>
+
+<proposto, 2>
+
+<segunda, 1>
+
+<univariada, 1>
+
+<frequência, 1>
+
+<respostas, 3>
+
+<conforme, 1>
+
+<distribuição, 2>
+
+<mesmas, 1>
+
+<qualitativos, 1>
+
+<aberta, 1>
+
+<conteúdo, 1>
+
+<qualitativa, 1>
+
+<temática, 1>
+
+<evidenciadas, 1>
+
+<frequências, 2>
+
+<oriundas, 1>
+
+<quantitativa, 1>
+
+<resultados, 2>
+
+<destacam-se, 1>
+
+<contexto, 1>
+
+<estatística, 1>
+
+<organização, 2>
+
+<limitação, 1>
+
+<reside, 1>
+
+<fato, 1>
+
+<sido, 1>
+
+<desenvolvido, 1>
+
+<base, 1>
+
+<única, 1>
+
+<bancária, 1>
+
+<permitindo, 1>
+
+<generalização, 2>
+
+<externa, 1>
+
+<propicie, 1>
+
+<teórica, 1>
+
+<presente, 1>
+
+<poderá, 1>
+
+<aplicado, 1>
+
+<predomínio, 1>
+

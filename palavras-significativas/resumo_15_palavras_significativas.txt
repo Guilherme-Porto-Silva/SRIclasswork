@@ -1,0 +1,188 @@
+
+
+Resumo 15:
+
+<resumo15, 91>
+
+<desenvolvimento, 5>
+
+<software, 4>
+
+<evoluído, 1>
+
+<significativamente, 1>
+
+<últimas, 1>
+
+<décadas, 1>
+
+<impulsionado, 1>
+
+<necessidade, 1>
+
+<entregas, 1>
+
+<rápidas, 1>
+
+<flexíveis, 1>
+
+<centradas, 1>
+
+<cliente, 2>
+
+<contexto, 1>
+
+<metodologias, 1>
+
+<ágeis, 1>
+
+<emergem, 1>
+
+<alternativas, 1>
+
+<modelos, 1>
+
+<tradicionais, 1>
+
+<oferecendo, 1>
+
+<abordagens, 1>
+
+<interativas, 1>
+
+<colaborativas, 1>
+
+<artigo, 1>
+
+<objetivo, 1>
+
+<analisar, 1>
+
+<revisão, 1>
+
+<literatura, 1>
+
+<metodologia, 1>
+
+<ágil, 2>
+
+<scrum, 4>
+
+<alternativa, 2>
+
+<eficiente, 1>
+
+<isso, 1>
+
+<selecionadas, 1>
+
+<obras, 1>
+
+<referência, 1>
+
+<biblioteca, 1>
+
+<virtual, 1>
+
+<utilizando, 1>
+
+<termos, 1>
+
+<“engenharia, 1>
+
+<software”, 2>
+
+<“metodologias, 1>
+
+<“scrum”, 1>
+
+<fundamentação, 1>
+
+<teórica, 1>
+
+<contempla, 1>
+
+<evolução, 1>
+
+<engenharia, 1>
+
+<princípios, 1>
+
+<manifesto, 1>
+
+<detalhamento, 1>
+
+<papéis, 1>
+
+<artefatos, 1>
+
+<cerimônias, 1>
+
+<framework, 1>
+
+<resultados, 1>
+
+<apontam, 1>
+
+<contribui, 1>
+
+<organização, 1>
+
+<equipes, 3>
+
+<entrega, 2>
+
+<contínua, 1>
+
+<valor, 1>
+
+<melhor, 1>
+
+<gestão, 1>
+
+<projetos, 1>
+
+<ambientes, 1>
+
+<dinâmicos, 1>
+
+<conclui-se, 1>
+
+<adoção, 1>
+
+<depende, 1>
+
+<compreensão, 1>
+
+<fundamentos, 1>
+
+<preparo, 1>
+
+<mudanças, 1>
+
+<culturais, 1>
+
+<estruturais, 1>
+
+<que, 1>
+
+<implementado, 1>
+
+<proporciona, 1>
+
+<controle, 1>
+
+<prazos, 1>
+
+<qualidade, 1>
+
+<alinhamento, 1>
+
+<objetivos, 1>
+
+<sendo, 1>
+
+<viável, 1>
+
+<adotada, 1>
+

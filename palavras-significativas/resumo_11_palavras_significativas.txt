@@ -1,0 +1,190 @@
+
+
+Resumo 11:
+
+<resumo11, 92>
+
+<crescente, 1>
+
+<demanda, 1>
+
+<infraestrutura, 2>
+
+<hospitalar, 1>
+
+<qualidade, 2>
+
+<aliada, 1>
+
+<desafios, 1>
+
+<prazos, 2>
+
+<reduzidos, 1>
+
+<restrições, 1>
+
+<orçamentárias, 1>
+
+<situações, 1>
+
+<emergenciais, 1>
+
+<impulsiona, 1>
+
+<busca, 1>
+
+<métodos, 1>
+
+<eficazes, 1>
+
+<gerenciamento, 2>
+
+<projetos, 3>
+
+<setor, 1>
+
+<saúde, 2>
+
+<contexto, 1>
+
+<metodologias, 3>
+
+<ágeis, 2>
+
+<originadas, 1>
+
+<desenvolvimento, 1>
+
+<software, 1>
+
+<fundamentadas, 1>
+
+<manifesto, 1>
+
+<ágil, 1>
+
+<destacando, 1>
+
+<capacidade, 1>
+
+<promover, 1>
+
+<entregas, 2>
+
+<incrementais, 1>
+
+<flexibilidade, 1>
+
+<comunicação, 1>
+
+<contínua, 1>
+
+<equipes, 1>
+
+<multidisciplinares, 1>
+
+<práticas, 1>
+
+<scrum, 1>
+
+<kanban, 1>
+
+<lean, 1>
+
+<mostram, 1>
+
+<adequadas, 1>
+
+<atender, 1>
+
+<constantes, 1>
+
+<mudanças, 1>
+
+<requisitos, 1>
+
+<necessidades, 1>
+
+<específicas, 1>
+
+<ambientes, 1>
+
+<hospitalares, 3>
+
+<oferecendo, 1>
+
+<respostas, 1>
+
+<rápidas, 1>
+
+<eficientes, 1>
+
+<frente, 1>
+
+<imprevistos, 1>
+
+<observados, 1>
+
+<durante, 1>
+
+<pandemia, 1>
+
+<covid-19, 1>
+
+<presente, 1>
+
+<estudo, 1>
+
+<analisou, 1>
+
+<revisão, 1>
+
+<integrativa, 1>
+
+<aplicação, 1>
+
+<resultado, 1>
+
+<demonstrou, 1>
+
+<adoção, 1>
+
+<otimizar, 1>
+
+<execução, 2>
+
+<obras, 1>
+
+<reduzir, 1>
+
+<custos, 1>
+
+<agilizar, 1>
+
+<garantir, 1>
+
+<evidenciando, 1>
+
+<promovem, 1>
+
+<eficiência, 1>
+
+<conclui-se, 1>
+
+<abordagens, 1>
+
+<representam, 1>
+
+<alternativa, 1>
+
+<inovadora, 1>
+
+<estratégica, 1>
+
+<modernização, 1>
+
+<gestão, 1>
+
+<pública, 1>
+

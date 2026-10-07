@@ -1,0 +1,164 @@
+
+
+Resumo 7:
+
+<resumo7, 79>
+
+<virtude, 1>
+
+<competividade, 1>
+
+<mercado, 1>
+
+<desenvolvimento, 3>
+
+<software, 2>
+
+<longo, 1>
+
+<últimas, 1>
+
+<décadas, 1>
+
+<métodos, 1>
+
+<geração, 1>
+
+<especializando, 1>
+
+<tornando, 1>
+
+<processos, 1>
+
+<eficientes, 1>
+
+<entretanto, 1>
+
+<metodologia, 1>
+
+<foca, 1>
+
+<explicitamente, 1>
+
+<design, 4>
+
+<centrado, 4>
+
+<usuário, 4>
+
+<implica, 1>
+
+<insatisfação, 1>
+
+<cliente, 1>
+
+<adequação, 1>
+
+<necessidades, 1>
+
+<retrabalho, 1>
+
+<deficiência, 1>
+
+<requisitos, 2>
+
+<atendam, 1>
+
+<projeto, 2>
+
+<problemas, 1>
+
+<acabam, 1>
+
+<afetando, 1>
+
+<custos, 1>
+
+<cronograma, 1>
+
+<equipes, 1>
+
+<decorrência, 1>
+
+<vulnerabilidades, 2>
+
+<presente, 1>
+
+<artigo, 2>
+
+<finalidade, 1>
+
+<correlacionar, 1>
+
+<modelos, 1>
+
+<ágeis, 3>
+
+<técnicas, 1>
+
+<usabilidade, 2>
+
+<gerar, 1>
+
+<satisfação, 1>
+
+<clientes, 1>
+
+<revisão, 1>
+
+<bibliográfica, 1>
+
+<sistemática, 1>
+
+<abordada, 1>
+
+<propõe-se, 1>
+
+<abordar, 1>
+
+<artigos, 1>
+
+<teses, 1>
+
+<acadêmicas, 1>
+
+<referentes, 1>
+
+<metodologias, 3>
+
+<fazendo, 1>
+
+<convergência, 1>
+
+<benefícios, 1>
+
+<correlação, 1>
+
+<elas, 1>
+
+<resultados, 1>
+
+<encontradas, 1>
+
+<comunicação, 1>
+
+<usuários, 1>
+
+<partes, 1>
+
+<interessadas, 1>
+
+<sanadas, 1>
+
+<utilização, 1>
+
+<eficiente, 1>
+
+<análise, 1>
+
+<aliado, 1>
+
+<ferramentas, 1>
+
+<direcionadas, 1>
+

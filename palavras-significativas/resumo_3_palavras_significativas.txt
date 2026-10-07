@@ -1,0 +1,66 @@
+
+
+Resumo 3:
+
+<resumo3, 30>
+
+<artigo, 1>
+
+<comparação, 2>
+
+<metodologias, 2>
+
+<tradicionais, 1>
+
+<desenvolvimento, 2>
+
+<software, 1>
+
+<ágeis, 1>
+
+<particular, 1>
+
+<feita, 1>
+
+<extreme, 1>
+
+<programming, 1>
+
+<(xp), 1>
+
+<metodologia, 1>
+
+<ágil, 1>
+
+<usada, 1>
+
+<modelo, 1>
+
+<clássico, 1>
+
+<sequencial, 1>
+
+<práticas, 1>
+
+<apresentadas, 1>
+
+<enfatizando, 1>
+
+<características, 1>
+
+<ideais, 1>
+
+<projetos, 1>
+
+<devem, 1>
+
+<rápido, 1>
+
+<requisitos, 1>
+
+<alterados, 1>
+
+<constantemente, 1>
+
+<clientes, 1>
+

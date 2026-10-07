@@ -1,0 +1,272 @@
+
+
+Resumo 17:
+
+<resumo17, 133>
+
+<estudo, 1>
+
+<analisou, 1>
+
+<desafios, 2>
+
+<estratégias, 3>
+
+<relacionadas, 1>
+
+<gestão, 3>
+
+<equipes, 2>
+
+<ágeis, 1>
+
+<contextos, 1>
+
+<remotos, 1>
+
+<híbridos, 1>
+
+<engenharia, 1>
+
+<software, 2>
+
+<considerando, 1>
+
+<dimensões, 1>
+
+<humanas, 1>
+
+<gerenciais, 1>
+
+<técnicas, 1>
+
+<pesquisa, 1>
+
+<propósito, 1>
+
+<identificar, 1>
+
+<categorizar, 1>
+
+<principais, 2>
+
+<dificuldades, 1>
+
+<enfrentadas, 1>
+
+<distribuídas, 1>
+
+<avaliar, 1>
+
+<propostas, 1>
+
+<literatura, 2>
+
+<recente, 1>
+
+<compreender, 1>
+
+<impacto, 1>
+
+<gerado, 1>
+
+<cultura, 3>
+
+<digital, 1>
+
+<automação, 3>
+
+<inteligência, 1>
+
+<artificial, 1>
+
+<(ia), 1>
+
+<prática, 1>
+
+<agilidade, 1>
+
+<contemporânea, 1>
+
+<metodologia, 1>
+
+<utilizada, 1>
+
+<baseou-se, 1>
+
+<revisão, 1>
+
+<sistemática, 1>
+
+<(rsl), 1>
+
+<conduzida, 1>
+
+<protocolo, 1>
+
+<prisma, 1>
+
+<adaptado, 1>
+
+<busca, 1>
+
+<bases, 1>
+
+<scopus, 1>
+
+<scielo, 1>
+
+<science, 1>
+
+<abrangendo, 1>
+
+<período, 1>
+
+<2015, 1>
+
+<2025, 1>
+
+<selecionados, 1>
+
+<trinta, 1>
+
+<estudos, 1>
+
+<atenderam, 1>
+
+<critérios, 1>
+
+<inclusão, 1>
+
+<contemplando, 1>
+
+<aspectos, 1>
+
+<humanos, 1>
+
+<(comunicação, 1>
+
+<liderança, 3>
+
+<engajamento), 1>
+
+<técnicos, 1>
+
+<(qualidade, 1>
+
+<devops, 1>
+
+<integração, 1>
+
+<entrega, 1>
+
+<contínuas, 1>
+
+<ci/cd), 1>
+
+<resultados, 1>
+
+<evidenciaram, 1>
+
+<que, 1>
+
+<dimensão, 2>
+
+<humana, 1>
+
+<associados, 1>
+
+<perda, 1>
+
+<interações, 1>
+
+<presenciais, 1>
+
+<dificuldade, 1>
+
+<manutenção, 1>
+
+<coesão, 1>
+
+<aumento, 1>
+
+<risco, 1>
+
+<esgotamento, 1>
+
+<emocional, 1>
+
+<(burnout), 1>
+
+<técnica, 2>
+
+<destacam-se, 1>
+
+<falhas, 1>
+
+<pipelines, 1>
+
+<(conjuntos, 1>
+
+<processos, 2>
+
+<automatizados), 1>
+
+<ci/cd, 1>
+
+<morosidade, 1>
+
+<revisões, 1>
+
+<assíncronas, 1>
+
+<código, 1>
+
+<maturidade, 2>
+
+<eficientes, 1>
+
+<identificadas, 1>
+
+<envolvem, 1>
+
+<implementação, 1>
+
+<confiança, 1>
+
+<redefinição, 1>
+
+<papel, 1>
+
+<ênfase, 1>
+
+<autonomia, 1>
+
+<empatia, 1>
+
+<incorporação, 1>
+
+<tecnologias, 1>
+
+<otimização, 1>
+
+<ágil, 2>
+
+<conclui-se, 1>
+
+<eficácia, 1>
+
+<ambientes, 1>
+
+<distribuídos, 1>
+
+<depende, 1>
+
+<articulação, 1>
+
+<equilibrada, 1>
+
+<organizacional, 1>
+
+<empática, 1>
+

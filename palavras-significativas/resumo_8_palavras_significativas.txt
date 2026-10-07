@@ -1,0 +1,78 @@
+
+
+Resumo 8:
+
+<resumo8, 36>
+
+<desenvolvimento, 3>
+
+<objetos, 3>
+
+<aprendizagem, 3>
+
+<exige, 1>
+
+<modelos, 1>
+
+<instrucionais, 1>
+
+<esenvolvimento, 1>
+
+<flexíveis, 1>
+
+<tratar, 1>
+
+<categoria, 1>
+
+<software, 1>
+
+<conjunto, 1>
+
+<requisitos, 2>
+
+<específicos, 1>
+
+<demandas, 1>
+
+<tecnológicas, 1>
+
+<singulares, 1>
+
+<metodologias, 2>
+
+<ágeis, 2>
+
+<facilitar, 1>
+
+<processo, 1>
+
+<permitindo, 1>
+
+<modelagem, 1>
+
+<funcionalidades, 1>
+
+<baseados, 1>
+
+<comportamento, 1>
+
+<aluno, 1>
+
+<presente, 1>
+
+<artigo, 1>
+
+<objetivo, 1>
+
+<discorrer, 1>
+
+<experiência, 1>
+
+<baseado, 1>
+
+<interface, 1>
+
+<baseada, 1>
+
+<scaffoldings, 1>
+

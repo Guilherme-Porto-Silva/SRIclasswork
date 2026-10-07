@@ -1,0 +1,226 @@
+
+
+Resumo 20:
+
+<resumo20, 110>
+
+<mundo, 1>
+
+<tecnologia, 2>
+
+<constante, 1>
+
+<mudança, 1>
+
+<requisitos, 2>
+
+<alterações, 1>
+
+<modelo, 1>
+
+<negócio, 1>
+
+<empresas, 1>
+
+<solicitadas, 1>
+
+<equipes, 3>
+
+<desenvolvimento, 8>
+
+<software, 5>
+
+<instante, 1>
+
+<necessitando, 1>
+
+<muita, 1>
+
+<interação, 1>
+
+<pessoas, 1>
+
+<respostas, 2>
+
+<rápidas, 1>
+
+<mudanças, 2>
+
+<propiciou, 1>
+
+<crescente, 1>
+
+<adoção, 1>
+
+<metodologias, 2>
+
+<ágeis, 3>
+
+<dentre, 1>
+
+<destacando-se, 1>
+
+<framework, 2>
+
+<scrum, 2>
+
+<principais, 1>
+
+<características, 2>
+
+<indivíduos, 1>
+
+<interações, 1>
+
+<processos, 1>
+
+<ferramentas, 1>
+
+<funcionando, 1>
+
+<extensa, 1>
+
+<documentação, 1>
+
+<colaboração, 1>
+
+<clientes, 1>
+
+<negociação, 1>
+
+<contratos, 1>
+
+<seguir, 1>
+
+<plano, 1>
+
+<fundamentais, 1>
+
+<organizações, 1>
+
+<buscam, 2>
+
+<excelência, 1>
+
+<mercado, 2>
+
+<informação, 1>
+
+<entretanto, 1>
+
+<existem, 1>
+
+<softwares, 2>
+
+<ágil, 1>
+
+<motivou, 1>
+
+<ferramenta, 2>
+
+<customizada, 1>
+
+<utilização, 1>
+
+<sendo, 1>
+
+<denominada, 1>
+
+<colaborativo, 1>
+
+<projetos, 2>
+
+<(scpa), 1>
+
+<voltada, 1>
+
+<otimizar, 1>
+
+<tempo, 1>
+
+<gerenciamento, 1>
+
+<melhorar, 1>
+
+<qualidade, 1>
+
+<produtos, 1>
+
+<desenvolvidos, 1>
+
+<scpa, 1>
+
+<permite, 1>
+
+<controle, 1>
+
+<efetivo, 1>
+
+<chamados, 1>
+
+<histórias, 1>
+
+<contexto, 1>
+
+<realizar, 1>
+
+<devidas, 1>
+
+<priorizações, 1>
+
+<iteração, 1>
+
+<inclui, 1>
+
+<facilitadores, 1>
+
+<possibilidade, 1>
+
+<adicionar, 1>
+
+<comentários, 1>
+
+<anexar, 1>
+
+<arquivos, 1>
+
+<cadastrar, 1>
+
+<documentar, 1>
+
+<testes, 1>
+
+<maneira, 1>
+
+<individual, 1>
+
+<história, 1>
+
+<possibilitando, 1>
+
+<opção, 1>
+
+<geração, 1>
+
+<gráfico, 1>
+
+<burndown, 1>
+
+<indicador, 1>
+
+<indispensável, 1>
+
+<monitoramento, 1>
+
+<produtividade, 1>
+
+<poderá, 1>
+
+<gerado, 1>
+
+<qualquer, 1>
+
+<durante, 1>
+
+<ciclo, 1>
+

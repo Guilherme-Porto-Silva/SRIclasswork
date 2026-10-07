@@ -1,0 +1,64 @@
+
+
+Resumo 1:
+
+<resumo1, 29>
+
+<artigo, 1>
+
+<apresenta, 1>
+
+<vantagens, 2>
+
+<metodologias, 6>
+
+<ágeis, 4>
+
+<desenvolver, 1>
+
+<software, 1>
+
+<tradicionais, 2>
+
+<particular, 1>
+
+<apresentadas, 2>
+
+<principais, 2>
+
+<características, 1>
+
+<práticas, 1>
+
+<extreme, 2>
+
+<programming, 2>
+
+<scrum, 2>
+
+<feitas, 1>
+
+<comparações, 1>
+
+<procurando, 1>
+
+<enfatizar, 1>
+
+<baseadas, 1>
+
+<pessoas, 1>
+
+<processos, 1>
+
+<planejamentos, 1>
+
+<finalmente, 1>
+
+<desvantagens, 1>
+
+<apresentados, 1>
+
+<resultados, 1>
+
+<empíricos, 1>
+

@@ -1,0 +1,106 @@
+
+
+Resumo 4:
+
+<resumo4, 50>
+
+<artigo, 1>
+
+<fomentado, 1>
+
+<estudos, 1>
+
+<bibliográficos, 1>
+
+<metodologias, 6>
+
+<ágil, 2>
+
+<tradicional, 3>
+
+<objetivo, 1>
+
+<apresentar, 1>
+
+<principais, 2>
+
+<problemas, 1>
+
+<encontrados, 1>
+
+<século, 1>
+
+<xxi, 1>
+
+<respeito, 1>
+
+<desenvolvimento, 3>
+
+<projetos, 1>
+
+<software, 2>
+
+<disponíveis, 1>
+
+<serão, 3>
+
+<apresentadas, 1>
+
+<formas, 1>
+
+<ferramenta, 1>
+
+<scrum, 1>
+
+<valores, 1>
+
+<práticas, 1>
+
+<apresentados, 1>
+
+<modo, 1>
+
+<identificar, 1>
+
+<justificar, 1>
+
+<diferenças, 1>
+
+<demonstrar, 1>
+
+<quadro, 1>
+
+<comparativo, 1>
+
+<quais, 1>
+
+<comparados, 1>
+
+<analisados, 1>
+
+<processos, 1>
+
+<ágeis, 1>
+
+<tradicionais, 1>
+
+<intuito, 1>
+
+<proporcionar, 1>
+
+<condições, 1>
+
+<favoráveis, 1>
+
+<avaliação, 1>
+
+<escolha, 1>
+
+<metodologia, 1>
+
+<atenda, 1>
+
+<necessidades, 1>
+
+<clientes, 1>
+

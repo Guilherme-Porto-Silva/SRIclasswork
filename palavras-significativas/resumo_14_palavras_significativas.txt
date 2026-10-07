@@ -1,0 +1,208 @@
+
+
+Resumo 14:
+
+<resumo14, 101>
+
+<revisão, 2>
+
+<sistemática, 1>
+
+<literatura, 1>
+
+<(rsl), 1>
+
+<objetivo, 1>
+
+<identificar, 1>
+
+<recuperar, 1>
+
+<analisar, 1>
+
+<práticas, 1>
+
+<descritas, 1>
+
+<produção, 1>
+
+<científica, 1>
+
+<relacionadas, 1>
+
+<gestão, 2>
+
+<desenvolvimento, 2>
+
+<ágil, 2>
+
+<tecnologias, 1>
+
+<inovações, 1>
+
+<produtos, 2>
+
+<tecnologia, 1>
+
+<informação, 1>
+
+<(ti), 1>
+
+<panorama, 1>
+
+<construído, 1>
+
+<busca, 1>
+
+<subsidiar, 1>
+
+<gestores, 1>
+
+<públicos, 1>
+
+<tomada, 1>
+
+<decisão, 1>
+
+<direcionamento, 1>
+
+<estratégico, 1>
+
+<setor, 1>
+
+<utilização, 2>
+
+<metodologias, 3>
+
+<ágeis, 4>
+
+<motivação, 1>
+
+<estudo, 1>
+
+<centrada, 1>
+
+<desafios, 2>
+
+<enfrentados, 1>
+
+<setores, 1>
+
+<capacidade, 2>
+
+<manter, 1>
+
+<inovar, 1>
+
+<otimizar, 1>
+
+<processos, 2>
+
+<internos, 1>
+
+<cenário, 1>
+
+<complexidade, 1>
+
+<gerencial, 1>
+
+<resulta, 1>
+
+<comprometimento, 1>
+
+<qualidade, 2>
+
+<melhor, 1>
+
+<alocação, 1>
+
+<recursos, 1>
+
+<especial, 1>
+
+<equipe, 1>
+
+<tais, 1>
+
+<particularmente, 1>
+
+<críticos, 1>
+
+<adoção, 3>
+
+<considerada, 1>
+
+<fator, 1>
+
+<favorece, 1>
+
+<realização, 1>
+
+<entregas, 1>
+
+<tempo, 1>
+
+<geração, 1>
+
+<valor, 1>
+
+<longo, 1>
+
+<processo, 1>
+
+<disso, 1>
+
+<proporciona, 1>
+
+<adaptação, 1>
+
+<requisitos, 1>
+
+<constante, 1>
+
+<mudança, 1>
+
+<promove, 1>
+
+<sistemas, 1>
+
+<entregues, 1>
+
+<principalmente, 1>
+
+<aspectos, 1>
+
+<facilidade, 1>
+
+<testes, 1>
+
+<rapidez, 1>
+
+<correção, 1>
+
+<falhas, 1>
+
+<contextualiza, 1>
+
+<critérios, 2>
+
+<utilizados, 1>
+
+<aplicação, 1>
+
+<sendo, 1>
+
+<fatores, 1>
+
+<essenciais, 1>
+
+<sustentar, 1>
+
+<execução, 1>
+
+<eficaz, 1>
+
+<observa, 1>
+
+<ferramentas, 1>
+

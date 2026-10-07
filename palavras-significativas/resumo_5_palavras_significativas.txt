@@ -1,0 +1,116 @@
+
+
+Resumo 5:
+
+<resumo5, 55>
+
+<apresenta, 1>
+
+<caso, 1>
+
+<implantação, 2>
+
+<metodologias, 3>
+
+<ágeis, 1>
+
+<desenvolvimento, 4>
+
+<scrum, 2>
+
+<extreme, 1>
+
+<programming, 1>
+
+<(xp), 1>
+
+<ressalta, 1>
+
+<abordagem, 2>
+
+<alternativa, 1>
+
+<pequenas, 2>
+
+<empresas, 3>
+
+<tecnologia, 1>
+
+<informação, 1>
+
+<(ti), 1>
+
+<necessária, 1>
+
+<função, 1>
+
+<processos, 1>
+
+<formais, 1>
+
+<perfil, 1>
+
+<acarreta, 1>
+
+<certos, 1>
+
+<problemas, 1>
+
+<construção, 1>
+
+<softwares, 1>
+
+<objetivo, 1>
+
+<viabilizar, 1>
+
+<solução, 1>
+
+<modelo, 1>
+
+<referidas, 1>
+
+<propósito, 1>
+
+<será, 1>
+
+<conseguido, 1>
+
+<mediante, 1>
+
+<levantamento, 1>
+
+<conceitos, 1>
+
+<volta, 1>
+
+<tema, 1>
+
+<apresentação, 1>
+
+<implantar, 1>
+
+<final, 1>
+
+<estudo, 1>
+
+<evidencia, 1>
+
+<contribuir, 1>
+
+<organização, 1>
+
+<formalização, 1>
+
+<processo, 1>
+
+<software, 1>
+
+<utilizado, 1>
+
+<favorecê-las, 1>
+
+<ganho, 1>
+
+<produtividade, 1>
+

@@ -1,0 +1,186 @@
+
+
+Resumo 2:
+
+<resumo2, 90>
+
+<desenvolvimento, 5>
+
+<software, 3>
+
+<atividade, 1>
+
+<complexa, 1>
+
+<devido, 1>
+
+<complexidade, 1>
+
+<engenharia, 1>
+
+<criada, 1>
+
+<objetivo, 2>
+
+<aumentar, 1>
+
+<produtividade, 2>
+
+<melhorar, 1>
+
+<qualidade, 3>
+
+<produto, 1>
+
+<gerado, 1>
+
+<diversas, 1>
+
+<metodologias, 3>
+
+<práticas, 1>
+
+<surgiram, 2>
+
+<intenção, 1>
+
+<direcionar, 1>
+
+<inicialmente, 1>
+
+<vieram, 1>
+
+<chamadas, 1>
+
+<tradicionais:, 1>
+
+<cascata, 1>
+
+<prototipação, 1>
+
+<incremental, 1>
+
+<traziam, 1>
+
+<junto, 1>
+
+<consigo, 1>
+
+<muita, 1>
+
+<rigidez, 1>
+
+<passo, 1>
+
+<delas, 1>
+
+<gerava, 1>
+
+<diversos, 1>
+
+<artefatos, 1>
+
+<documentações, 1>
+
+<mesmo, 1>
+
+<resultados, 3>
+
+<entregues, 1>
+
+<projetos, 1>
+
+<geravam, 1>
+
+<abaixo, 1>
+
+<esperado, 1>
+
+<isso, 1>
+
+<ágeis, 2>
+
+<proposta, 1>
+
+<fornecer, 1>
+
+<agilidade, 1>
+
+<resposta, 1>
+
+<flexibilidade, 1>
+
+<adaptação, 1>
+
+<trazendo, 1>
+
+<diferencial, 1>
+
+<competitivo, 1>
+
+<velocidade, 1>
+
+<revisão, 1>
+
+<técnica, 1>
+
+<apresentar, 1>
+
+<mecanismo, 1>
+
+<ágil, 1>
+
+<modo, 1>
+
+<atender, 1>
+
+<rapidez, 1>
+
+<reduzindo, 1>
+
+<consumo, 1>
+
+<desnecessário, 1>
+
+<recursos, 1>
+
+<auxiliando, 1>
+
+<promoção, 1>
+
+<sustentável, 1>
+
+<compreendeu-se, 1>
+
+<técnicas, 1>
+
+<trouxeram, 1>
+
+<evolução, 1>
+
+<troca, 1>
+
+<experiência, 1>
+
+<comunicação, 1>
+
+<transmissão, 1>
+
+<conhecimento, 1>
+
+<confiança, 2>
+
+<pessoas, 1>
+
+<cliente, 2>
+
+<equipe, 1>
+
+<cresça, 1>
+
+<satisfação, 1>
+
+<seja, 1>
+
+<maior, 1>
+
