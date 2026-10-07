@@ -20,18 +20,6 @@ const campoResposta = document.querySelector("main");
 
 
 
-// reteferenciando documentos
-
-const indicesDocumentos = [];
-
-const titulos = [];
-
-const autores = [];
-
-const nomesDocumentos = [];
-
-
-
 // COMEÇO DE UM CÓDIGO GERADO PELO CLAUDE AI
 
 let documentos = [];// título, autores, arquivo, tokens... (vêm do indice.json)
