@@ -18,10 +18,10 @@
 
         <div class="linha contornado meioRemDePadding fundo">
 
-            <input type="radio" id="escuro" name="selecioneTema" group="tema" value="escuro">
+            <input type="radio" id="escuro" name="selecioneTema" value="escuro">
             <label for="escuro">Tema escuro</label>
 
-            <input type="radio" id="claro" name="selecioneTema" group="tema" value="claro">
+            <input type="radio" id="claro" name="selecioneTema" value="claro">
             <label for="claro">Tema claro</label>
 
         </div>
@@ -30,13 +30,13 @@
 
     </header>
 
-    <main class="coluna">
+    <main class="coluna fundo">
 
         <form id="formBusca" class="coluna">
 
-          <fieldset class="linha meioRemDePadding">
+            <h2>Selecione um modelo de recuperação</h2>
 
-            <legend>Selecione um modelo de recuperação</legend>
+          <fieldset class="linha meioRemDePadding">
 
             <input type="radio" id="booleano" name="selecioneModelo" value="Booleano" checked>
 
@@ -48,9 +48,9 @@
 
           </fieldset>
 
-          <div class="linha meioRemDePadding">
+          <h2><label for="palavrasChave">Palavras-chave</label></h2>
 
-            <label for="palavrasChave">Palavras-chave</label>
+          <div class="linha meioRemDePadding longo">
 
             <input type="text" id="palavrasChave" required placeholder="Ex.: (scrum AND xp) NOT startups">
 
@@ -60,12 +60,14 @@
 
         </form>
 
+        <h2>Resultados da Busca</h2>
+
         <div id="resultados" class="coluna contornado meioRemDePadding" aria-live="polite">
 
-          <span>Sua resposta aparecerá aqui.</span>
+          <span>Nenhuma busca realizada até o momento.</span>
 
         </div>
-        
+
       </main>
 
 

@@ -16,9 +16,9 @@ TOKEN = re.compile(r"[^\W_]+(?:-[^\W_]+)*")# letras/dígitos; hífen interno faz
 
 def carregar_stopwords(caminho):
     
-    """Lê a lista (UTF-8) e devolve um set: busca em set é O(1), em lista é O(n)."""
+    """Lê a lista (ANSI) e devolve um set: busca em set é O(1), em lista é O(n)."""
     
-    return {l.strip().lower() for l in caminho.read_text(encoding="utf-8").splitlines() if l.strip()}
+    return {l.strip().lower() for l in caminho.read_text(encoding="ANSI").splitlines() if l.strip()}
 
 def tokenizar(texto, stopwords):
     
@@ -34,7 +34,7 @@ def main():
     
     stop = carregar_stopwords(RAIZ / "codigos" / "stopwords.txt")
     
-    docs = json.loads((RAIZ / "dados" / "documentos.json").read_text(encoding="utf-8"))
+    docs = json.loads((RAIZ / "dados" / "documentos.json").read_text(encoding="ANSI"))
     
     pasta = RAIZ / "resumos"
     
@@ -48,11 +48,11 @@ def main():
         
         linhas = [f"<{t}, {n}>" for t, n in Counter(doc["tokens"]).most_common()]# formato <termo, frequência>
         
-        (pasta / f"resumo_{i + 1}_palavras_significativas.txt").write_text("\n".join(linhas), encoding="utf-8")
+        (pasta / f"resumo_{i + 1}_palavras_significativas.txt").write_text("\n".join(linhas), encoding="ANSI")
         
     saida = {"stopwords": sorted(stop), "documentos": docs}
     
-    (RAIZ / "dados" / "indice.json").write_text(json.dumps(saida, ensure_ascii=False), encoding="utf-8")
+    (RAIZ / "dados" / "indice.json").write_text(json.dumps(saida, ensure_ascii=False), encoding="ANSI")
     
     print(f"{len(docs)} documentos indexados")
 

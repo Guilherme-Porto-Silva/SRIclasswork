@@ -36,9 +36,7 @@ input{
 }
 
 input[type="text"]{
-    min-width: 10ch;
-    width: max-content;
-    max-width: 100%;
+    width: 90%;
     height: 1.5rem;
 }
 
@@ -67,3 +65,5 @@ button{
 }
 
 .meioRemDePadding{ padding: 0.5rem; }
+
+.longo{ width: 95%; }

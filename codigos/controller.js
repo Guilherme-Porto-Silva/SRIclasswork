@@ -34,9 +34,9 @@ const nomesDocumentos = [];
 
 // COMEÇO DE UM CÓDIGO GERADO PELO CLAUDE AI
 
-let documentos = [];  // título, autores, arquivo, tokens... (vêm do indice.json)
+let documentos = [];// título, autores, arquivo, tokens... (vêm do indice.json)
 
-let stopwords = new Set();  // a mesma lista usada na indexação
+let stopwords = new Set();// a mesma lista usada na indexação
 
 let indice = null;// estruturas de busca (item 4)
 
@@ -59,7 +59,7 @@ async function carregarDados() {
 
     const resposta = await fetch("./dados/indice.json");
 
-    if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);   // fetch NÃO rejeita em 404
+    if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`); // fetch NÃO rejeita em 404
 
     const dados = await resposta.json();
 
@@ -84,25 +84,25 @@ carregarDados();
 
 function mostrar(resultados) {// resultados: [{ id, score? }] já ordenados
 
-  if (resultados.length == 0) return mostrarMensagem("Nenhum resultado encontrado. Confira as palavras digitadas.");
+    if (resultados.length == 0) return mostrarMensagem("Nenhum resultado encontrado. Confira as palavras digitadas.");
 
-  const links = resultados.map(({ id, score }) => {
+    const links = resultados.map(({ id, score }) => {
 
     const doc = documentos[id];
 
-    const a = document.createElement("a");
+    const ancora = document.createElement("a");
 
-    a.textContent = `${doc.titulo} — ${doc.autores.join(", ")}` + (score ? ` (similaridade ${score.toFixed(3)})` : "");
+    ancora.textContent = `${doc.titulo} — ${doc.autores.join(", ")}` + (score ? ` (similaridade ${score.toFixed(3)})` : "");
 
-    a.href = doc.arquivo.split("/").map(encodeURIComponent).join("/");   // "banco/..." relativo à página; trata espaços e acentos
+    ancora.href = doc.arquivo.split("/").map(encodeURIComponent).join("/");// "banco/..." relativo à página; trata espaços e acentos
 
-    a.target = "_blank";
+    ancora.target = "_blank";
 
-    a.rel = "noopener";
+    ancora.rel = "noopener";
 
-    a.classList.add("contornado");
+    ancora.classList.add("contornado");
 
-    return a;
+    return ancora;
   });
 
   campoResposta.replaceChildren(...links);
@@ -118,7 +118,7 @@ function pesquisar() {
 
     if (!consulta) return mostrarMensagem("Digite ao menos uma palavra-chave.");
 
-    const modelo = document.querySelector('input[name="selecioneModelo"]:checked').value;   // há um rádio 'checked' por padrão
+    const modelo = document.querySelector('input[name="selecioneModelo"]:checked').value; // há um rádio 'checked' por padrão
 
     try {
 
